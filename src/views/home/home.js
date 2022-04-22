@@ -9,10 +9,12 @@ import {
 } from './home.styled';
 
 const Home = () => {
-
   const navigate = useNavigate();
 
-  const handleSearch = ({value}) => {console.log({value}); navigate('/restaurants')}
+  const handleSearch = ({ value }) => {
+    console.log({ value });
+    navigate('/restaurants');
+  };
 
   return (
     <HomeWrapper>
@@ -23,7 +25,8 @@ const Home = () => {
         <StyledInput
           onSearch={(value) => {
             console.log(value);
-            navigate('/restaurants', {state: value})}}
+            navigate('/restaurants', { state: value });
+          }}
           size="large"
           placeholder="Enter your address"
           enterButton
