@@ -1,10 +1,11 @@
 import axios from 'axios';
 import { useQuery } from 'react-query';
 import { useLocation } from 'react-router';
-import { Card } from 'antd';
+
 import {
   CardsWrapper,
   FiltersWrapper,
+  RestaurantCard,
   RestaurantsViewWrapper,
 } from 'components/common';
 
@@ -28,19 +29,7 @@ const Restaurants = () => {
         {data?.map((item) => {
           console.log({ item });
           return (
-            <Card
-              title={item.name}
-              extra={<a href="#">More</a>}
-              style={{ width: 300 }}
-              bordered
-              size="small"
-              cover={
-                <img
-                  alt="example"
-                  src={require(`./../../assets/images/restaurants/${item.id}.jpg`)}
-                />
-              }
-            ></Card>
+            <RestaurantCard name={item.name} id={item.id} score={item.rating} />
           );
         })}
       </CardsWrapper>

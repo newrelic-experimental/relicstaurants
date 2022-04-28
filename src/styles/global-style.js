@@ -8,8 +8,6 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     background: ${({ theme: { color } }) => color.grey500};
-    overscroll-behavior: none;
-    color: ${({ theme }) => theme.color.mainPurple};
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     padding:0;
@@ -18,6 +16,5 @@ export const GlobalStyle = createGlobalStyle`
   a {
     transition: .5s;
     cursor: pointer;
-  text-decoration: none;
-
+    text-decoration: none;
   }`;
