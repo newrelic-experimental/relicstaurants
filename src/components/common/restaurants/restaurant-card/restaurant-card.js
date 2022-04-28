@@ -4,9 +4,10 @@ import {
   Card,
   RestaurantName,
   RestaurantPhoto,
+  ScoreAndPrice,
 } from './restaurant-card.styled';
 
-const RestaurantCard = ({ name, id, score }) => {
+const RestaurantCard = ({ name, id, score, cuisine, price }) => {
   return (
     <>
       <Card key={id} onClick={() => console.log({ id })}>
@@ -15,7 +16,11 @@ const RestaurantCard = ({ name, id, score }) => {
           alt={name}
           src={require(`./../../../../assets/images/restaurants/${id}.jpg`)}
         />
-        <Rate value={score} />
+        <ScoreAndPrice>
+          <p>{cuisine}</p>
+          <p>prices: {price}</p>
+          <Rate disabled value={score} />
+        </ScoreAndPrice>
       </Card>
     </>
   );

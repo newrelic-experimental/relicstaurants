@@ -11,11 +11,6 @@ import {
 const Home = () => {
   const navigate = useNavigate();
 
-  const handleSearch = ({ value }) => {
-    console.log({ value });
-    navigate('/restaurants');
-  };
-
   return (
     <HomeWrapper>
       <InputWrapper>
