@@ -1,54 +1,109 @@
 import axios from 'axios';
 import { useQuery } from 'react-query';
-import { useLocation } from 'react-router';
-import { Collapse } from 'antd';
+import { Collapse, Form, Rate, Slider } from 'antd';
 import {
   CardsWrapper,
   FiltersWrapper,
+  Message,
   RestaurantCard,
   RestaurantsViewWrapper,
 } from 'components/common';
-import { Rate } from 'antd';
+import { Select } from 'antd';
+import { useState } from 'react';
+
+const getFilterData = (data, filters) => {
+  let filteredData = [];
+
+  filteredData = data
+    ?.filter((value) => value.rating >= filters.rating)
+    .filter((value) => value.price >= filters.prices)
+    .filter((value) =>
+      filters.cuisine ? value.cuisine === filters.cuisine : true
+    );
+  console.log(filteredData ? true : false);
+  console.log(filteredData);
+  return filteredData;
+};
 
 const Restaurants = () => {
-  const location = useLocation();
+  const [filters, setFilters] = useState({
+    rating: 0,
+    prices: 0,
+    cuisine: undefined,
+  });
+
   const { Panel } = Collapse;
+  const [form] = Form.useForm();
 
   const getRestaurants = async () => {
     const { data } = await axios.get('http://localhost:3000/api/restaurant');
     return data;
   };
-
   const { data } = useQuery('restaurants', getRestaurants);
+
+  const filteredData = getFilterData(data, filters);
+
+  const selectList = (data) => {
+    const list = data
+      ?.map(({ cuisine }) => cuisine)
+      .filter((x, i, a) => {
+        return a.indexOf(x) == i;
+      });
+
+    const options =
+      list?.map((value) => ({
+        value: value,
+        label: value,
+      })) || [];
+
+    return options;
+  };
 
   return (
     <RestaurantsViewWrapper>
       <FiltersWrapper>
-        <Collapse>
-          <Panel header="Filter by score" key="1">
-            <p>filtr 1</p>
-          </Panel>
-          <Panel header="Filter by prices" key="2">
-            <p>filtr 2</p>
-          </Panel>
-          <Panel header="Filter by cuisine" key="3">
-            <p>filtr 3</p>
-          </Panel>
-        </Collapse>
+        <Form
+          form={form}
+          onValuesChange={() => {
+            setFilters(form.getFieldsValue(true));
+          }}
+          initialValues={{ rating: 0, prices: 0, cuisine: '' }}
+        >
+          <Collapse>
+            <Panel header="Filter by score" key="1">
+              <Form.Item name="rating">
+                <Rate />
+              </Form.Item>
+            </Panel>
+            <Panel header="Filter by prices" key="2">
+              <Form.Item name="prices">
+                <Slider max={5} defaultValue={0} />
+              </Form.Item>
+            </Panel>
+            <Panel header="Filter by cuisine" key="3">
+              <Form.Item name="cuisine">
+                <Select options={selectList(data)} allowClear />
+              </Form.Item>
+            </Panel>
+          </Collapse>
+        </Form>
       </FiltersWrapper>
       <CardsWrapper>
-        {data?.map((item) => {
-          console.log({ item });
-          return (
-            <RestaurantCard
-              name={item.name}
-              id={item.id}
-              score={item.rating}
-              cuisine={item.cuisine}
-              price={item.price}
-            />
-          );
-        })}
+        {filteredData?.length > 0 ? (
+          filteredData?.map((item) => {
+            return (
+              <RestaurantCard
+                name={item.name}
+                id={item.id}
+                score={item.rating}
+                cuisine={item.cuisine}
+                price={item.price}
+              />
+            );
+          })
+        ) : (
+          <Message>Nothing was found</Message>
+        )}
       </CardsWrapper>
     </RestaurantsViewWrapper>
   );
