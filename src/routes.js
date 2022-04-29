@@ -1,7 +1,7 @@
 import { App, NotFound } from 'components/layouts';
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { ContactUs, Help, Home, HowItWorks } from 'views';
+import { ContactUs, Help, Home, HowItWorks, Restaurants } from 'views';
 
 const Routing = () => (
   <BrowserRouter>
@@ -11,6 +11,7 @@ const Routing = () => (
         <Route path="contact" element={<ContactUs />} />
         <Route path="how-it-works" element={<HowItWorks />} />
         <Route path="help" element={<Help />} />
+        <Route path="restaurants" element={<Restaurants />} />
       </Route>
       <Route path="*" element={<NotFound />} />
     </Routes>

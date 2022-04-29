@@ -13,7 +13,7 @@ export const InputWrapper = styled.div`
   width: 100%;
   height: 80px;
   background-color: ${({ theme: { color } }) => color.mainYellow};
-  padding: 0 10px;
+  padding: 45px 10px;
 `;
 
 export const StyledInputText = styled.div`
@@ -33,21 +33,5 @@ export const StyledInputText = styled.div`
 `;
 
 export const StyledInput = styled(Input.Search)`
-  input {
-    width: 400px;
-    height: 35px;
-    border-radius: 0;
-    border: 0;
-    padding: 5px;
-  }
-
-  button {
-    width: 35px;
-    height: 35px;
-    margin-left: 2px;
-
-    &:hover {
-      border: 1;
-    }
-  }
+  width: 400px;
 `;
