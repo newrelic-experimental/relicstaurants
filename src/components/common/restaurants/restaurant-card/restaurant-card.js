@@ -1,5 +1,6 @@
 import { Rate } from 'antd';
 import React from 'react';
+import { useNavigate } from 'react-router';
 import {
   Card,
   RestaurantName,
@@ -8,9 +9,10 @@ import {
 } from './restaurant-card.styled';
 
 const RestaurantCard = ({ name, id, score, cuisine, price }) => {
+  const navigate = useNavigate();
   return (
     <>
-      <Card key={id} onClick={() => console.log({ id })}>
+      <Card key={id} onClick={() => navigate(`/restaurant/${id}`)}>
         <RestaurantName>{name}</RestaurantName>
         <RestaurantPhoto
           alt={name}
