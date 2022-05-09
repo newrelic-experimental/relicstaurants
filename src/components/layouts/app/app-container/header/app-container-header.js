@@ -1,11 +1,17 @@
 import { Drawer } from 'antd';
+import { orderList } from 'atoms/order-list.atom';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { useRecoilValue } from 'recoil';
 import { Logo, StyledHeader } from './app-header-styled';
 import Navi from './navi-items';
 
 const Header = () => {
   const [isSidebarVisible, setIsSidebarVisible] = useState(false);
+
+  const orderListState = useRecoilValue(orderList);
+
+  console.log({ orderListState });
 
   const onClose = () => {
     setIsSidebarVisible(false);
@@ -24,14 +30,19 @@ const Header = () => {
       </Link>
       <Navi sidebarVisible={handleSidebarOpen} />
       <Drawer
-        title="Basic Drawer"
+        title="Cart"
         placement="right"
         onClose={onClose}
         visible={isSidebarVisible}
       >
-        <p>Some contents...</p>
-        <p>Some contents...</p>
-        <p>Some contents...</p>
+        {orderListState.map((item) => (
+          <ul>
+            <li>
+              {item.name}
+              {item.price}
+            </li>
+          </ul>
+        ))}
       </Drawer>
     </StyledHeader>
   );

@@ -10,20 +10,7 @@ import {
 } from 'components/common';
 import { Select } from 'antd';
 import { useState } from 'react';
-
-const getFilterData = (data, filters) => {
-  let filteredData = [];
-
-  filteredData = data
-    ?.filter((value) => value.rating >= filters.rating)
-    .filter((value) => value.price >= filters.prices)
-    .filter((value) =>
-      filters.cuisine ? value.cuisine === filters.cuisine : true
-    );
-  console.log(filteredData ? true : false);
-  console.log(filteredData);
-  return filteredData;
-};
+import { getFilterData } from './utils/getFIlteredData';
 
 const Restaurants = () => {
   const [filters, setFilters] = useState({
