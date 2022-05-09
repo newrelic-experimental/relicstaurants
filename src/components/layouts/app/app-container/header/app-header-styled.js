@@ -27,6 +27,13 @@ export const NaviWrapper = styled.div`
   justify-content: space-between;
   align-items: center;
   font-size: ${({ theme: { fontSize } }) => fontSize.lg};
-  width: 350px;
+  width: 400px;
   padding-right: 50px;
+`;
+
+export const IconWrapper = styled.div`
+  svg {
+    color: ${({ theme }) => theme.color.mainPurple};
+    font-size: 24px;
+  }
 `;
