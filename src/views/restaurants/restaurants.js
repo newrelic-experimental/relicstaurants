@@ -34,7 +34,7 @@ const Restaurants = () => {
     const list = data
       ?.map(({ cuisine }) => cuisine)
       .filter((x, i, a) => {
-        return a.indexOf(x) == i;
+        return a.indexOf(x) === i;
       });
 
     const options =
