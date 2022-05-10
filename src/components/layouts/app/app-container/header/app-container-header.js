@@ -15,9 +15,22 @@ const Header = () => {
   const onClose = () => {
     setIsSidebarVisible(false);
   };
-
   const handleSidebarOpen = () => {
     setIsSidebarVisible(true);
+  };
+
+  const itemQuantity = (list) => {
+    let totalItemQuantity = 0;
+    list.forEach((item) => (totalItemQuantity += item.count));
+
+    return totalItemQuantity;
+  };
+
+  const handleDeleteItem = (clickedRow) => {
+    const reducedData = orderListState.filter((item) =>
+      item.name === clickedRow.name ? false : true
+    );
+    setOrderList(reducedData);
   };
 
   const columns = [
@@ -27,9 +40,20 @@ const Header = () => {
       key: 'name',
     },
     {
+      title: 'Count',
+      dataIndex: 'count',
+      key: 'count',
+    },
+    {
       title: 'Price',
       dataIndex: 'price',
       key: 'price',
+    },
+    {
+      title: 'Delete',
+      render: (clickedRow) => (
+        <Button onClick={() => handleDeleteItem(clickedRow)}>-</Button>
+      ),
     },
   ];
 
@@ -43,7 +67,7 @@ const Header = () => {
       </Link>
       <Navi
         sidebarVisible={handleSidebarOpen}
-        orderListLength={orderListState.length}
+        orderListLength={itemQuantity(orderListState)}
       />
       <Drawer
         size="large"
@@ -52,51 +76,58 @@ const Header = () => {
         onClose={onClose}
         visible={isSidebarVisible}
       >
-        <Table
-          dataSource={orderListState}
-          columns={columns}
-          pagination={false}
-          summary={(pageData) => {
-            console.log({ pageData });
-            let totalPrice = 0;
+        {orderListState.length > 0 ? (
+          <Table
+            dataSource={orderListState}
+            columns={columns}
+            pagination={false}
+            summary={(pageData) => {
+              console.log({ pageData });
+              let totalPrice = 0;
 
-            pageData.forEach(({ price }) => (totalPrice += price));
+              pageData.forEach(
+                ({ price, count }) => (totalPrice += price * count)
+              );
 
-            return (
-              <>
-                <Table.Summary.Row>
-                  <Table.Summary.Cell>Total</Table.Summary.Cell>
-                  <Table.Summary.Cell>
-                    <Text type="danger">{totalPrice.toFixed()}</Text>
-                  </Table.Summary.Cell>
-                </Table.Summary.Row>
-                <Table.Summary.Row>
-                  <Table.Summary.Cell>
-                    <Button
-                      disabled={totalPrice > 0 ? false : true}
-                      primary
-                      onClick={() => {
-                        setOrderList([]);
-                        setIsSidebarVisible(false);
-                      }}
-                    >
-                      Clean cart
-                    </Button>
-                  </Table.Summary.Cell>
-                  <Table.Summary.Cell>
-                    <Button
-                      disabled={totalPrice > 0 ? false : true}
-                      primary
-                      onClick={() => console.log({ totalPrice })}
-                    >
-                      PAY
-                    </Button>
-                  </Table.Summary.Cell>
-                </Table.Summary.Row>
-              </>
-            );
-          }}
-        />
+              return (
+                <>
+                  <Table.Summary.Row>
+                    <Table.Summary.Cell>Total</Table.Summary.Cell>
+                    <Table.Summary.Cell></Table.Summary.Cell>
+                    <Table.Summary.Cell colSpan={2}>
+                      <Text type="danger">{totalPrice.toFixed(2)}</Text>
+                    </Table.Summary.Cell>
+                  </Table.Summary.Row>
+                  <Table.Summary.Row>
+                    <Table.Summary.Cell colSpan={2}>
+                      <Button
+                        disabled={totalPrice > 0 ? false : true}
+                        primary
+                        onClick={() => {
+                          setOrderList([]);
+                          setIsSidebarVisible(false);
+                        }}
+                      >
+                        Clean cart
+                      </Button>
+                    </Table.Summary.Cell>
+                    <Table.Summary.Cell>
+                      <Button
+                        disabled={totalPrice > 0 ? false : true}
+                        primary
+                        onClick={() => console.log({ totalPrice })}
+                      >
+                        PAY
+                      </Button>
+                    </Table.Summary.Cell>
+                  </Table.Summary.Row>
+                </>
+              );
+            }}
+          />
+        ) : (
+          <p>Nothing in cart</p>
+        )}
       </Drawer>
     </StyledHeader>
   );

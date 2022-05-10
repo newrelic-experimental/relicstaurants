@@ -24,23 +24,35 @@ const SingleRestaurant = () => {
 
   const [orderListItems, setOrderList] = useRecoilState(orderList);
 
-  console.log(setOrderList);
-
   const { data } = useQuery('restaurant', () => getRestaurant(id));
+
+  const handleAddToCart = (clickedRow) => {
+    const isItemInCart = orderListItems.find(
+      (item) => item.name === clickedRow.name
+    );
+
+    if (isItemInCart) {
+      const newData = orderListItems.map((item) =>
+        item.name === clickedRow.name
+          ? { ...item, count: item.count + 1 }
+          : item
+      );
+      setOrderList(newData);
+    } else {
+      setOrderList([
+        ...orderListItems,
+        { name: clickedRow.name, price: clickedRow.price, count: 1 },
+      ]);
+    }
+  };
 
   const columns = [
     { title: 'Name', dataIndex: 'name', key: 'name' },
     { title: 'price', dataIndex: 'price', key: 'price' },
     {
       title: 'Add to cart',
-      render: (a, b, c) => (
-        <Button
-          onClick={() => {
-            setOrderList([...orderListItems, { name: a.name, price: a.price }]);
-          }}
-        >
-          Add
-        </Button>
+      render: (clickedRow) => (
+        <Button onClick={() => handleAddToCart(clickedRow)}>Add</Button>
       ),
     },
   ];
