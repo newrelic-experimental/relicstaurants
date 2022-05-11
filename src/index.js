@@ -5,6 +5,7 @@ import Routing from 'routes';
 import { ThemeProvider } from 'styled-components';
 import 'antd/dist/antd.css';
 import { GlobalStyle, theme } from 'styles';
+import { RecoilRoot } from 'recoil';
 
 const queryClient = new QueryClient();
 
@@ -13,7 +14,9 @@ ReactDOM.render(
     <QueryClientProvider client={queryClient}>
       <ThemeProvider theme={theme}>
         <GlobalStyle />
-        <Routing />
+        <RecoilRoot>
+          <Routing />
+        </RecoilRoot>
       </ThemeProvider>
     </QueryClientProvider>
   </React.StrictMode>,
