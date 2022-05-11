@@ -1,6 +1,7 @@
 import { Button, Drawer, Table } from 'antd';
 import Text from 'antd/lib/typography/Text';
 import { orderList } from 'atoms/order-list.atom';
+import { Message } from 'components/common';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useRecoilState } from 'recoil';
@@ -125,7 +126,7 @@ const Header = () => {
             }}
           />
         ) : (
-          <p>Nothing in cart</p>
+          <Message>Nothing in cart</Message>
         )}
       </Drawer>
     </StyledHeader>

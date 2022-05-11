@@ -1,16 +1,17 @@
 import axios from 'axios';
 import { useQuery } from 'react-query';
 import { Collapse, Form, Rate, Slider } from 'antd';
-import {
-  CardsWrapper,
-  FiltersWrapper,
-  Message,
-  RestaurantCard,
-  RestaurantsViewWrapper,
-} from 'components/common';
+
 import { Select } from 'antd';
 import { useState } from 'react';
 import { getFilterData } from './utils/getFIlteredData';
+import {
+  CardsWrapper,
+  FiltersWrapper,
+  RestaurantCard,
+  RestaurantsViewWrapper,
+} from './elements';
+import { Message } from 'components/common';
 
 const Restaurants = () => {
   const [filters, setFilters] = useState({
