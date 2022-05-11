@@ -92,14 +92,13 @@ const Header = () => {
               return (
                 <>
                   <Table.Summary.Row>
-                    <Table.Summary.Cell>Total</Table.Summary.Cell>
-                    <Table.Summary.Cell></Table.Summary.Cell>
-                    <Table.Summary.Cell colSpan={2}>
+                    <Table.Summary.Cell colSpan={2}>Total</Table.Summary.Cell>
+                    <Table.Summary.Cell>
                       <Text type="danger">{totalPrice.toFixed(2)}</Text>
                     </Table.Summary.Cell>
                   </Table.Summary.Row>
                   <Table.Summary.Row>
-                    <Table.Summary.Cell colSpan={2}>
+                    <Table.Summary.Cell colSpan={3}>
                       <Button
                         disabled={totalPrice > 0 ? false : true}
                         primary
