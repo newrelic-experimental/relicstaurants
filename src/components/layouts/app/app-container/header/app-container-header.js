@@ -7,11 +7,12 @@ import { Link } from 'react-router-dom';
 import { useRecoilState } from 'recoil';
 import { Logo, StyledHeader } from './app-header-styled';
 import Navi from './navi-items';
+import { useNavigate } from 'react-router';
 
 const Header = () => {
   const [isSidebarVisible, setIsSidebarVisible] = useState(false);
   const [orderListState, setOrderList] = useRecoilState(orderList);
-  console.log({ orderListState });
+  const navigate = useNavigate();
 
   const onClose = () => {
     setIsSidebarVisible(false);
@@ -83,7 +84,6 @@ const Header = () => {
             columns={columns}
             pagination={false}
             summary={(pageData) => {
-              console.log({ pageData });
               let totalPrice = 0;
 
               pageData.forEach(
@@ -115,7 +115,10 @@ const Header = () => {
                       <Button
                         disabled={totalPrice > 0 ? false : true}
                         primary
-                        onClick={() => console.log({ totalPrice })}
+                        onClick={() => {
+                          navigate(`/payment`, { state: totalPrice });
+                          setIsSidebarVisible(false);
+                        }}
                       >
                         PAY
                       </Button>
