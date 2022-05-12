@@ -6,8 +6,10 @@ import {
   Help,
   Home,
   HowItWorks,
+  Payments,
   Restaurants,
   SingleRestaurant,
+  ThankYou,
 } from 'views';
 
 const Routing = () => (
@@ -20,6 +22,8 @@ const Routing = () => (
         <Route path="help" element={<Help />} />
         <Route path="restaurants" element={<Restaurants />} />
         <Route path="restaurant/:id" element={<SingleRestaurant />} />
+        <Route path="payment" element={<Payments />} />
+        <Route path="thank-you" element={<ThankYou />} />
       </Route>
       <Route path="*" element={<NotFound />} />
     </Routes>
