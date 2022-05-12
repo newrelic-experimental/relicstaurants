@@ -8,8 +8,6 @@ export const getFilterData = (data, filters) => {
       .filter((value) =>
         filters.cuisine ? value.cuisine === filters.cuisine : true
       );
-    console.log(filteredData ? true : false);
-    console.log(filteredData);
     return filteredData;
   }
   return filteredData;

@@ -17,4 +17,21 @@ export const GlobalStyle = createGlobalStyle`
     transition: .5s;
     cursor: pointer;
     text-decoration: none;
-  }`;
+    color: ${({ theme: { color } }) => color.mainPurple}
+  }
+
+  button {
+    color: ${({ theme: { color } }) => color.mainPurple}
+  }
+
+  .ant-btn-primary {
+ background-color: ${({ theme: { color } }) => color.mainPurple};
+ border: ${({ theme: { color } }) => color.mainPurple};
+
+ &:hover{
+    background-color: ${({ theme: { color } }) => color.mainPurple};
+ }
+
+ }
+}
+  `;
