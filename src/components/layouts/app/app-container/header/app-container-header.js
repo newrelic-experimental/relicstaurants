@@ -63,7 +63,7 @@ const Header = () => {
     <StyledHeader>
       <Link to="/">
         <Logo>
-          <div>Reliqstaurants</div>
+          <div>Relicstaurants</div>
           <p>byNewRelic</p>
         </Logo>
       </Link>

@@ -20,7 +20,7 @@ const ContactUs = () => {
           icon={<MailOutlined />}
           text={
             <>
-              <p>Message us:</p> <p>reliqstaurants@nr.com</p>
+              <p>Message us:</p> <p>relicstaurants@nr.com</p>
             </>
           }
         />
