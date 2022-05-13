@@ -14,10 +14,12 @@ export const Logo = styled.div`
   font-size: 40px;
   font-weight: 100;
   height: 94px;
+  line-height: 1;
+  margin-top: 15px;
 
   p {
     font-size: 14px;
-    margin 0 0 0 120px;
+    margin 0 0 0 200px;
     color: ${({ theme }) => theme.color.black};
   }
 `;

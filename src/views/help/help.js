@@ -6,7 +6,7 @@ const Help = () => {
     <ViewWrapper>
       <Title>Help</Title>
       <IconsWrapper>
-        The FoodMe repository was created so that you can test New Relic
+        The Reliqstaurants repository was created so that you can test New Relic
         observability on a small but real project. You don't have to create a
         special application just to practice, we did it for you. So go ahead and
         copy the repository, run it locally and try to implement observability
