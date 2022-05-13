@@ -16,6 +16,7 @@
     "husky": "^7.0.4",
     "lint-staged": "^12.3.7",
     "morgan": "^1.10.0",
+    "newrelic": "^8.11.0",
     "open": "^8.4.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
