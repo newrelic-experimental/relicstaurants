@@ -11,7 +11,6 @@ import {
 const Home = () => {
   const navigate = useNavigate();
   const [errorInValidation, setErrorInValidation] = useState();
-
   return (
     <HomeWrapper>
       <InputWrapper>
@@ -26,9 +25,9 @@ const Home = () => {
             if (value.length >= 5) {
               localStorage.setItem('address', value);
               navigate('/restaurants', { state: value });
-            } else {
-              setErrorInValidation(true);
+              return;
             }
+            setErrorInValidation(true);
           }}
           size="large"
           placeholder="Enter your address"
