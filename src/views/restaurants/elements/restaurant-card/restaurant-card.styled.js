@@ -20,7 +20,8 @@ export const RestaurantName = styled.div`
 `;
 
 export const RestaurantPhoto = styled.img`
-  width: 100%;
+  width: 254px;
+  height: 170px;
 `;
 
 export const ScoreAndPrice = styled.div`
