@@ -1,17 +1,22 @@
 [![New Relic Experimental header](https://github.com/newrelic/opensource-website/raw/master/src/images/categories/Experimental.png)](https://opensource.newrelic.com/oss-category/#new-relic-experimental)
 
-# [Name of Project] [build badges go here when available]
+# [Reliqstaurants] [build badges go here when available]
 
-> [Brief description - what is the project and value does it provide? How often should users expect to get releases? How is versioning set up? Where does this project want to go?]
+> The Reliqstaurants repository was created so that you can test New Relic observability on a small but real project. You don't have to create a special application just to practice, we did it for you. So go ahead and copy the repository, run it locally and try to implement observability for this project yourself. You can find a tip on what the finished project looks like on the "observability" branch
 
 ## Installation
 
-> [Include a step-by-step procedure on how to get your code installed. Be sure to include any third-party dependencies that need to be installed separately]
+```
+ npm install
+
+```
 
 ## Getting Started
 
+```
 npm run build
 npm run newstart
+```
 
 ## Usage
 
@@ -19,7 +24,7 @@ npm run newstart
 
 ## Building
 
-> [**Optional** - Include this section if users will need to follow specific instructions to build the software from source. Be sure to include any third party build dependencies that need to be installed separately. Remove this section if it's not needed.]
+> Because backend of app is already in repository we need to build it manually and then make newstart, that commands will at first build whole application with backend and next will serve it in browser.
 
 ## Testing
 
@@ -47,3 +52,7 @@ If you believe you have found a security vulnerability in this project or any of
 [Project Name] is licensed under the [Apache 2.0](http://apache.org/licenses/LICENSE-2.0.txt) License.
 
 > [If applicable: The [project name] also uses source code from third-party libraries. You can find full details on which libraries are used and the terms under which they are licensed in the third-party notices document.]
+
+```
+
+```
