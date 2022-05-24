@@ -2,6 +2,7 @@ import { DollarOutlined, HomeOutlined } from '@ant-design/icons';
 import { Button, Divider, Form, InputNumber, Select, Table } from 'antd';
 import Text from 'antd/lib/typography/Text';
 import { orderList } from 'atoms/order-list.atom';
+import axios from 'axios';
 import { Title, ViewWrapper } from 'components/common';
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router';
@@ -13,6 +14,10 @@ const Payments = () => {
   const navigate = useNavigate();
   const [form] = Form.useForm();
   const { Option } = Select;
+
+  const handleOrderSending = async (payload) => {
+    await axios.post('/api/order', payload);
+  };
 
   const columns = [
     {
@@ -32,7 +37,8 @@ const Payments = () => {
     },
   ];
 
-  const handleFinish = (values) => {
+  const handleFinish = () => {
+    handleOrderSending(orderListState);
     setOrderListState([]);
     navigate('/thank-you');
   };
@@ -55,7 +61,7 @@ const Payments = () => {
           rules={[
             {
               required: true,
-              message: 'Please chose one!',
+              message: 'Please choose one!',
             },
           ]}
         >

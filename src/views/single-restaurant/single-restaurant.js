@@ -48,7 +48,7 @@ const SingleRestaurant = () => {
 
   const columns = [
     { title: 'Name', dataIndex: 'name', key: 'name' },
-    { title: 'price', dataIndex: 'price', key: 'price' },
+    { title: 'Price', dataIndex: 'price', key: 'price' },
     {
       title: 'Add to cart',
       render: (clickedRow) => (
