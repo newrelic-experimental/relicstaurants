@@ -108,6 +108,7 @@ const Payments = () => {
         columns={columns}
         pagination={false}
         summary={(pageData) => {
+          let orderTotal;
           let totalPrice = 0;
 
           pageData.forEach(({ price, count }) => (totalPrice += price * count));
@@ -119,7 +120,7 @@ const Payments = () => {
                 <Table.Summary.Cell />
                 <Table.Summary.Cell>Total</Table.Summary.Cell>
                 <Table.Summary.Cell>
-                  <Text type="danger">{totalPrice.toFixed(2)}</Text>
+                  <Text type="danger">{orderTotal.toFixed(2)}</Text>
                 </Table.Summary.Cell>
               </Table.Summary.Row>
             </>

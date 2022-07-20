@@ -29,5 +29,5 @@ export const StyledHero = styled.div`
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(${hero});
+  background-image: url('http://deelay.me/5000/https://www.teahub.io/photos/full/6-63607_background-images-food-hd.jpg');
 `;
