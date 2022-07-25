@@ -15,26 +15,11 @@
 
 ```
 npm run build
-npm run newstart
 ```
 
-## Usage
-
-> [**Optional** - Include more thorough instructions on how to use the software. This section might not be needed if the Getting Started section is enough. Remove this section if it's not needed.]
-
-## Building
-
-> Because backend of app is already in repository we need to build it manually and then make newstart, that commands will at first build whole application with backend and next will serve it in browser.
-
-## Testing
-
-> [**Optional** - Include instructions on how to run tests if we include tests with the codebase. Remove this section if it's not needed.]
-
-## Support
-
-New Relic hosts and moderates an online forum where customers can interact with New Relic employees as well as other customers to get help and share best practices. Like all official New Relic open source projects, there's a related Community topic in the New Relic Explorers Hub. You can find this project's topic/threads here:
-
-> Add the url for the support thread here
+```
+npm run newstart
+```
 
 ## Contributing
 

@@ -9,7 +9,8 @@ const ThankYou = () => {
     <ViewWrapper>
       <Title>Thank you for your Order!</Title>
       <p>
-        Thank you for your Order, we will deliver Food how fast it's possible.{' '}
+        Thank you for your order, we will deliver your food to you as soon as
+        possible{' '}
       </p>
       <Button type="primal" onClick={() => navigate('/')}>
         Back to main page
