@@ -6,19 +6,14 @@
 
 ## Installation
 
-```
- npm install
-
+```make
+ make install
 ```
 
 ## Getting Started
 
-```
-npm run build
-```
-
-```
-npm run newstart
+```make
+ make run
 ```
 
 ## Contributing
@@ -26,7 +21,7 @@ npm run newstart
 We encourage your contributions to improve [project name]! Keep in mind when you submit your pull request, you'll need to sign the CLA via the click-through using CLA-Assistant. You only have to sign the CLA one time per project.
 If you have any questions, or to execute our corporate CLA, required if your contribution is on behalf of a company, please drop us an email at opensource@newrelic.com.
 
-**A note about vulnerabilities**
+### **A note about vulnerabilities**
 
 As noted in our [security policy](../../security/policy), New Relic is committed to the privacy and security of our customers and their data. We believe that providing coordinated disclosure by security researchers and engaging with the security community are important means to achieve our security goals.
 
@@ -37,7 +32,3 @@ If you believe you have found a security vulnerability in this project or any of
 [Project Name] is licensed under the [Apache 2.0](http://apache.org/licenses/LICENSE-2.0.txt) License.
 
 > [If applicable: The [project name] also uses source code from third-party libraries. You can find full details on which libraries are used and the terms under which they are licensed in the third-party notices document.]
-
-```
-
-```

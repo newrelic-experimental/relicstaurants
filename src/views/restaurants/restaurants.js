@@ -24,7 +24,7 @@ const Restaurants = () => {
   const [form] = Form.useForm();
 
   const getRestaurants = async () => {
-    const { data } = await axios.get('http://localhost:3000/api/restaurant');
+    const { data } = await axios.get('http://localhost:3001/api/restaurants');
     return data;
   };
   const { data } = useQuery('restaurants', getRestaurants);

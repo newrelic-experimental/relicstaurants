@@ -10,13 +10,10 @@
     "@testing-library/user-event": "^13.5.0",
     "antd": "^4.19.5",
     "axios": "^0.26.1",
-    "body-parser": "^1.20.0",
+    "concurrently": "^7.3.0",
     "csv": "^6.0.5",
-    "express": "^4.17.3",
     "husky": "^7.0.4",
     "lint-staged": "^12.3.7",
-    "morgan": "^1.10.0",
-    "open": "^8.4.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-query": "^3.34.19",
@@ -32,7 +29,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "newstart": "node ./server/start.js"
+    "order": "nodemon ./order/start.js --watch order",
+    "restaurant": "nodemon ./restaurant/start.js --watch restaurant",
+    "restaurants": "nodemon ./restaurants/start.js --watch restaurants"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx,json}": [
@@ -61,6 +60,7 @@
     "@babel/preset-react": "^7.16.7",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.19",
     "prettier": "^2.6.2"
   }
 }
