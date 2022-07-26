@@ -7,15 +7,13 @@
 ## Installation
 
 ```
- npm install
-
+ make install
 ```
 
 ## Getting Started
 
 ```
-npm run build
-npm run newstart
+ make run
 ```
 
 ## Usage

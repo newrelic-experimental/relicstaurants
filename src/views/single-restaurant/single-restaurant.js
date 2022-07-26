@@ -14,7 +14,7 @@ import {
 
 const getRestaurant = async (id) => {
   const { data } = await axios.get(
-    `http://localhost:3000/api/restaurant/${id}`
+    `http://localhost:3003/api/restaurant/${id}`
   );
   return data;
 };
