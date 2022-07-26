@@ -95,7 +95,7 @@ const Payments = () => {
             },
           ]}
         >
-          <InputNumber placeholder="CVS" controls={false} max={999} />
+          <InputNumber placeholder="CVV" controls={false} max={999} />
         </Form.Item>
         <Form.Item>
           <Button htmlType="submit" type="primary">

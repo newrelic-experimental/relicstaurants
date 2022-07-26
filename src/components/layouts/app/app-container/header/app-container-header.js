@@ -63,8 +63,8 @@ const Header = () => {
     <StyledHeader>
       <Link to="/">
         <Logo>
-          <div>RelicStaurants</div>
-          <p>byNewRelic</p>
+          <div>Relicstaurants</div>
+          <p>by New Relic</p>
         </Logo>
       </Link>
       <Navi
@@ -108,7 +108,7 @@ const Header = () => {
                           setIsSidebarVisible(false);
                         }}
                       >
-                        Clean cart
+                        Clear Cart
                       </Button>
                     </Table.Summary.Cell>
                     <Table.Summary.Cell>
