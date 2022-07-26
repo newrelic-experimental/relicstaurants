@@ -1,6 +1,5 @@
 var express = require('express');
 var fs = require('fs');
-var open = require('open');
 var logger = require('morgan');
 var bodyParser = require('body-parser');
 
