@@ -65,7 +65,7 @@ const Payments = () => {
             },
           ]}
         >
-          <Select label="card" style={{ width: '300px' }}>
+          <Select label="card" style={{ width: '200px' }}>
             <Option value="visa">Visa</Option>
             <Option value="mastercard">MasterCard</Option>
             <Option value="citybank">CityBank</Option>
@@ -78,14 +78,21 @@ const Payments = () => {
               required: true,
               message: 'Is required',
             },
+            {
+              len: 16,
+              message: 'Must be 16 characters long',
+            },
           ]}
         >
           <InputNumber
             placeholder="Card number"
+            maxLength={16}
             controls={false}
-            style={{ width: '300px' }}
+            stringMode
+            style={{ width: '200px' }}
           />
         </Form.Item>
+
         <Form.Item
           name="csv"
           rules={[
@@ -95,7 +102,12 @@ const Payments = () => {
             },
           ]}
         >
-          <InputNumber placeholder="CVV" controls={false} max={999} />
+          <InputNumber
+            maxLength={3}
+            stringMode
+            placeholder="CVV"
+            controls={false}
+          />
         </Form.Item>
         <Form.Item>
           <Button htmlType="submit" type="primary">
