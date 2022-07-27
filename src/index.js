@@ -5,7 +5,7 @@ import Routing from 'routes';
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyle, theme } from 'styles';
 import { RecoilRoot } from 'recoil';
-import 'antd/dist/antd.css';
+import 'antd/dist/antd.min.css';
 
 const queryClient = new QueryClient();
 
