@@ -1,4 +1,6 @@
 #!make
+.PHONY: order restaurant restaurants
+
 order:
 	cd order && npm install
 
