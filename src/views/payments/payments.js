@@ -56,16 +56,13 @@ const Payments = () => {
       </Text>
       <Divider />
       <Form layout={'inline'} form={form} onFinish={handleFinish}>
-        <Form.Item
-          name="card"
-          rules={[
-            {
-              required: true,
-              message: 'Please choose one!',
-            },
-          ]}
-        >
-          <Select label="card" style={{ width: '300px' }}>
+        <Form.Item name="card">
+          <Select
+            defaultValue={'visa'}
+            label="card"
+            placeholder="Choose your card type"
+            style={{ width: '300px' }}
+          >
             <Option value="visa">Visa</Option>
             <Option value="mastercard">MasterCard</Option>
             <Option value="citybank">CityBank</Option>
