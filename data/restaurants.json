@@ -11,79 +11,79 @@
         "menuItems": [
             {
                 "name": "Bockwurst Würstchen",
-                "price": 4.95
+                "price": 6.95
             },
             {
                 "name": "Bratwurst mit Brötchen und Sauerkraut",
-                "price": 5.95
-            },
-            {
-                "name": "Currywurst mit Brötchen",
-                "price": 5.95
-            },
-            {
-                "name": "Das Hausmannskost",
-                "price": 11.45
-            },
-            {
-                "name": "Fleishkas mit Kartoffelsalat",
-                "price": 6.95
-            },
-            {
-                "name": "Frankfurter Würstchen",
-                "price": 9.95
-            },
-            {
-                "name": "Französische Zwiebelsuppe mit Käse",
-                "price": 10.45
-            },
-            {
-                "name": "Frikadelle mit Brötchen",
-                "price": 6.95
-            },
-            {
-                "name": "Gebackener Camenbert",
-                "price": 7.55
-            },
-            {
-                "name": "Gemischter Salat",
-                "price": 4.55
-            },
-            {
-                "name": "Haus Salatteller",
-                "price": 11.45
-            },
-            {
-                "name": "Jaegerschnitzel",
-                "price": 9.95
-            },
-            {
-                "name": "Kaesepaetzle",
-                "price": 6.95
-            },
-            {
-                "name": "Kartoffel Reibekuchen mit Apfelmus",
-                "price": 5.95
-            },
-            {
-                "name": "Maultaschen mit Käse",
                 "price": 7.95
             },
             {
+                "name": "Currywurst mit Brötchen",
+                "price": 7.95
+            },
+            {
+                "name": "Das Hausmannskost",
+                "price": 15.45
+            },
+            {
+                "name": "Fleishkas mit Kartoffelsalat",
+                "price": 9.95
+            },
+            {
+                "name": "Frankfurter Würstchen",
+                "price": 14.95
+            },
+            {
+                "name": "Französische Zwiebelsuppe mit Käse",
+                "price": 15.45
+            },
+            {
+                "name": "Frikadelle mit Brötchen",
+                "price": 10.95
+            },
+            {
+                "name": "Gebackener Camenbert",
+                "price": 12.55
+            },
+            {
+                "name": "Gemischter Salat",
+                "price": 6.55
+            },
+            {
+                "name": "Haus Salatteller",
+                "price": 16.45
+            },
+            {
+                "name": "Jaegerschnitzel",
+                "price": 14.95
+            },
+            {
+                "name": "Kaesepaetzle",
+                "price": 9.95
+            },
+            {
+                "name": "Kartoffel Reibekuchen mit Apfelmus",
+                "price": 7.95
+            },
+            {
+                "name": "Maultaschen mit Käse",
+                "price": 10.95
+            },
+            {
                 "name": "Sauerbraten",
-                "price": 10.45
+                "price": 13.45
             },
             {
                 "name": "Ungarische Gulaschsuppe mit Brötchen",
-                "price": 3.95
+                "price": 5.95
             },
             {
                 "name": "Wienerschnitzel",
-                "price": 8.95
+                "price": 10.95
             },
             {
                 "name": "Wurstsalad mit Bauernbrot",
-                "price": 6.95
+                "price": 9.95
             }
         ],
         "price": 3,
@@ -109,71 +109,71 @@
         "menuItems": [
             {
                 "name": "California roll",
-                "price": 5.95
+                "price": 7.95
             },
             {
                 "name": "Chicken teriyaki",
-                "price": 5.95
+                "price": 7.95
             },
             {
                 "name": "Edamame",
-                "price": 6.95
+                "price": 9.95
             },
             {
                 "name": "Futomaki roll",
-                "price": 5.21
+                "price": 8.21
             },
             {
                 "name": "Green tea ice cream",
-                "price": 6.95
+                "price": 9.95
             },
             {
                 "name": "Kitsune Udon",
-                "price": 9.5
+                "price": 12.54
             },
             {
                 "name": "Miso soup",
-                "price": 5.95
+                "price": 7.95
             },
             {
                 "name": "Pork Katsu",
-                "price": 5.95
+                "price": 7.95
             },
             {
                 "name": "Salmon teriyaki",
-                "price": 5.95
+                "price": 8.95
             },
             {
                 "name": "Sashimi combo",
-                "price": 6.95
+                "price": 9.95
             },
             {
                 "name": "Spicy Yellowtail roll",
-                "price": 7.55
+                "price": 10.55
             },
             {
                 "name": "Sushi combo",
-                "price": 4.55
+                "price": 8.55
             },
             {
                 "name": "Teppa Maki",
-                "price": 5.95
+                "price": 9.95
             },
             {
                 "name": "Unagi Don",
-                "price": 7.55
+                "price": 10.55
             },
             {
                 "name": "Vegetable tempura",
-                "price": 3.95
+                "price": 8.95
             },
             {
                 "name": "Vegetarian sushi plate",
-                "price": 6.95
+                "price": 9.95
             },
             {
                 "name": "Wakame salad",
-                "price": 4.95
+                "price": 6.95
             }
         ],
         "price": 4,
@@ -197,55 +197,55 @@
         "menuItems": [
             {
                 "name": "bean and cheese burrito",
-                "price": 6.95
+                "price": 9.95
             },
             {
                 "name": "cheese tortellini in tomato sauce",
-                "price": 3.95
-            },
-            {
-                "name": "coffee",
-                "price": 6.95
-            },
-            {
-                "name": "falafel wrap with tabbouleh",
-                "price": 4.95
-            },
-            {
-                "name": "flourless chocolate cake",
                 "price": 8.95
             },
             {
-                "name": "garden fresh salad",
-                "price": 6.5
+                "name": "coffee",
+                "price": 3.95
             },
             {
-                "name": "happy buddha stir fry",
-                "price": 10.45
-            },
-            {
-                "name": "hummus appetizer plate",
-                "price": 8
-            },
-            {
-                "name": "lentil burger",
-                "price": 6
-            },
-            {
-                "name": "lentil soup",
-                "price": 4.5
-            },
-            {
-                "name": "pasta with olives and marinated lemon",
+                "name": "falafel wrap with tabbouleh",
                 "price": 6.95
             },
             {
+                "name": "flourless chocolate cake",
+                "price": 11.95
+            },
+            {
+                "name": "garden fresh salad",
+                "price": 9.5
+            },
+            {
+                "name": "happy buddha stir fry",
+                "price": 15.45
+            },
+            {
+                "name": "hummus appetizer plate",
+                "price": 12.34
+            },
+            {
+                "name": "lentil burger",
+                "price": 13.10
+            },
+            {
+                "name": "lentil soup",
+                "price": 5.5
+            },
+            {
+                "name": "pasta with olives and marinated lemon",
+                "price": 7.95
+            },
+            {
                 "name": "spinach and cheese wrap",
-                "price": 5.95
+                "price": 8.95
             },
             {
                 "name": "tea",
-                "price": 5.95
+                "price": 2.95
             },
             {
                 "name": "toasted sandwich with grilled eggplant",
@@ -253,7 +253,7 @@
             },
             {
                 "name": "tofu chicken wrap",
-                "price": 9.95
+                "price": 12.95
             },
             {
                 "name": "tomato and cheese sandwich",
@@ -287,11 +287,11 @@
         "menuItems": [
             {
                 "name": "bavette dans son jus",
-                "price": 4.95
+                "price": 6.95
             },
             {
                 "name": "bœuf bourguignon ",
-                "price": 18
+                "price": 24
             },
             {
                 "name": "bouillabaisse",
@@ -299,59 +299,59 @@
             },
             {
                 "name": "coq au vin",
-                "price": 10.45
+                "price": 14.45
             },
             {
                 "name": "frites aïoli ",
-                "price": null
+                "price": 12.45
             },
             {
                 "name": "moules et frites",
-                "price": 3.95
+                "price": 5.95
             },
             {
                 "name": "poulet au riesling",
-                "price": 4.95
-            },
-            {
-                "name": "quiche lorraine",
                 "price": 7.95
             },
             {
-                "name": "salade de chèvre chaud",
-                "price": 5.95
-            },
-            {
-                "name": "salade du midi",
-                "price": 6.95
-            },
-            {
-                "name": "salade niçoise",
-                "price": 3.95
-            },
-            {
-                "name": "sandwich croque-madame",
-                "price": 3.95
-            },
-            {
-                "name": "sandwich croque-monsieur",
-                "price": 4.55
-            },
-            {
-                "name": "soupe à l'oignon",
+                "name": "quiche lorraine",
                 "price": 9.95
             },
             {
-                "name": "steak frites",
+                "name": "salade de chèvre chaud",
+                "price": 8.95
+            },
+            {
+                "name": "salade du midi",
+                "price": 9.95
+            },
+            {
+                "name": "salade niçoise",
                 "price": 5.95
+            },
+            {
+                "name": "sandwich croque-madame",
+                "price": 5.95
+            },
+            {
+                "name": "sandwich croque-monsieur",
+                "price": 6.55
+            },
+            {
+                "name": "soupe à l'oignon",
+                "price": 12.95
+            },
+            {
+                "name": "steak frites",
+                "price": 12.95
             },
             {
                 "name": "tarte pissaladière ",
-                "price": 6.95
+                "price": 9.95
             },
             {
                 "name": "tarte tatin",
-                "price": 5.95
+                "price": 8.95
             }
         ],
         "price": 5,
@@ -375,67 +375,67 @@
         "menuItems": [
             {
                 "name": "Dibi Lamb",
-                "price": 8.25
+                "price": 12.25
             },
             {
                 "name": "Doro Wat",
-                "price": 5.95
+                "price": 7.95
             },
             {
                 "name": "Grilled Chicken",
-                "price": 4.95
-            },
-            {
-                "name": "Grilled Fish",
-                "price": 6.95
-            },
-            {
-                "name": "Grilled Plantains in Spicy Peanut Sauce",
-                "price": 7.95
-            },
-            {
-                "name": "Lamb Mafe (Peanut Butter Stew)",
-                "price": 8.75
-            },
-            {
-                "name": "Meat Pie",
-                "price": 6
-            },
-            {
-                "name": "Mechoui with Plantains",
-                "price": 5.95
-            },
-            {
-                "name": "Pepper Soup",
-                "price": 9.95
-            },
-            {
-                "name": "Piri-Piri Shrimp",
-                "price": 11.45
-            },
-            {
-                "name": "Suppa Kandja",
-                "price": 3.95
-            },
-            {
-                "name": "Thiou Boulette",
-                "price": 6.95
-            },
-            {
-                "name": "Thiou Curry with Chicken",
-                "price": 7.95
-            },
-            {
-                "name": "Thu Okra",
-                "price": 6.95
-            },
-            {
-                "name": "Yassa Chicken",
                 "price": 8.95
             },
             {
+                "name": "Grilled Fish",
+                "price": 8.95
+            },
+            {
+                "name": "Grilled Plantains in Spicy Peanut Sauce",
+                "price": 9.95
+            },
+            {
+                "name": "Lamb Mafe (Peanut Butter Stew)",
+                "price": 11.75
+            },
+            {
+                "name": "Meat Pie",
+                "price": 7.20
+            },
+            {
+                "name": "Mechoui with Plantains",
+                "price": 8.95
+            },
+            {
+                "name": "Pepper Soup",
+                "price": 14.95
+            },
+            {
+                "name": "Piri-Piri Shrimp",
+                "price": 15.45
+            },
+            {
+                "name": "Suppa Kandja",
+                "price": 8.95
+            },
+            {
+                "name": "Thiou Boulette",
+                "price": 9.95
+            },
+            {
+                "name": "Thiou Curry with Chicken",
+                "price": 10.95
+            },
+            {
+                "name": "Thu Okra",
+                "price": 9.95
+            },
+            {
+                "name": "Yassa Chicken",
+                "price": 12.95
+            },
+            {
                 "name": "Yassa Lamb",
-                "price": 8.25
+                "price": 13.25
             }
         ],
         "price": 3,
@@ -461,71 +461,71 @@
         "menuItems": [
             {
                 "name": "Buffalo wings",
-                "price": 5.95
+                "price": 7.95
             },
             {
                 "name": "California-style baked Tilapia with rice",
-                "price": 6.95
+                "price": 9.95
             },
             {
                 "name": "Cheeseburger and fries",
-                "price": 4.55
-            },
-            {
-                "name": "Cherry pie a la mode",
-                "price": 4.95
-            },
-            {
-                "name": "Chocolate milkshake",
-                "price": 6.95
-            },
-            {
-                "name": "Cobb salad",
-                "price": 4.95
-            },
-            {
-                "name": "Famous BLT on a kaiser roll with fries",
-                "price": 4.95
-            },
-            {
-                "name": "Firehouse chili",
-                "price": 6.95
-            },
-            {
-                "name": "Goat cheese and eggplant wrap (vegetarian)",
-                "price": 5.95
-            },
-            {
-                "name": "Greek salad",
-                "price": 6.95
-            },
-            {
-                "name": "Grilled chicken sandwich",
-                "price": 4.95
-            },
-            {
-                "name": "Grilled sausage on a bun",
-                "price": 6.95
-            },
-            {
-                "name": "Housemade pot roast with seasonal vegetable",
-                "price": 16.95
-            },
-            {
-                "name": "Roast beef dip",
-                "price": 11.45
-            },
-            {
-                "name": "Roast chicken and mashed potatoes",
                 "price": 7.55
             },
             {
-                "name": "Soup of the day",
+                "name": "Cherry pie a la mode",
                 "price": 8.95
             },
             {
+                "name": "Chocolate milkshake",
+                "price": 8.95
+            },
+            {
+                "name": "Cobb salad",
+                "price": 7.95
+            },
+            {
+                "name": "Famous BLT on a kaiser roll with fries",
+                "price": 6.95
+            },
+            {
+                "name": "Firehouse chili",
+                "price": 9.95
+            },
+            {
+                "name": "Goat cheese and eggplant wrap (vegetarian)",
+                "price": 7.95
+            },
+            {
+                "name": "Greek salad",
+                "price": 9.95
+            },
+            {
+                "name": "Grilled chicken sandwich",
+                "price": 6.95
+            },
+            {
+                "name": "Grilled sausage on a bun",
+                "price": 9.95
+            },
+            {
+                "name": "Housemade pot roast with seasonal vegetable",
+                "price": 19.95
+            },
+            {
+                "name": "Roast beef dip",
+                "price": 14.45
+            },
+            {
+                "name": "Roast chicken and mashed potatoes",
+                "price": 9.55
+            },
+            {
+                "name": "Soup of the day",
+                "price": 11.95
+            },
+            {
                 "name": "Spaghetti and meatballs",
-                "price": 11.45
+                "price": 13.45
             }
         ],
         "price": 4,
@@ -550,71 +550,71 @@
         "menuItems": [
             {
                 "name": "BBQ chicken",
-                "price": 4.95
-            },
-            {
-                "name": "Beef ribs (full)",
-                "price": 9.95
-            },
-            {
-                "name": "Beef ribs (delux)",
-                "price": 10.45
-            },
-            {
-                "name": "Beef ribs (half)",
-                "price": 6.45
-            },
-            {
-                "name": "Beer",
-                "price": 7.55
-            },
-            {
-                "name": "Coleslaw",
-                "price": 8.95
-            },
-            {
-                "name": "Collards",
-                "price": 9.95
-            },
-            {
-                "name": "Cornbread",
-                "price": 11.45
-            },
-            {
-                "name": "Devilled eggs",
-                "price": 4
-            },
-            {
-                "name": "German chocolate cake",
-                "price": 5.95
-            },
-            {
-                "name": "Housemade chips",
-                "price": 4
-            },
-            {
-                "name": "Hushpuppies",
-                "price": 3.25
-            },
-            {
-                "name": "Mac and cheese",
-                "price": 6
-            },
-            {
-                "name": "Pork ribs (half)",
                 "price": 6.95
             },
             {
+                "name": "Beef ribs (full)",
+                "price": 12.95
+            },
+            {
+                "name": "Beef ribs (delux)",
+                "price": 13.45
+            },
+            {
+                "name": "Beef ribs (half)",
+                "price": 8.45
+            },
+            {
+                "name": "Beer",
+                "price": 9.55
+            },
+            {
+                "name": "Coleslaw",
+                "price": 10.95
+            },
+            {
+                "name": "Collards",
+                "price": 14.95
+            },
+            {
+                "name": "Cornbread",
+                "price": 16.45
+            },
+            {
+                "name": "Devilled eggs",
+                "price": 6.21
+            },
+            {
+                "name": "German chocolate cake",
+                "price": 7.95
+            },
+            {
+                "name": "Housemade chips",
+                "price": 7
+            },
+            {
+                "name": "Hushpuppies",
+                "price": 5.25
+            },
+            {
+                "name": "Mac and cheese",
+                "price": 8
+            },
+            {
+                "name": "Pork ribs (half)",
+                "price": 9.95
+            },
+            {
                 "name": "Potato salad",
-                "price": 3.95
+                "price": 5.95
             },
             {
                 "name": "Pulled pork sandwich on a soft roll",
-                "price": 4.95
+                "price": 7.95
             },
             {
                 "name": "Riblets",
-                "price": 10.45
+                "price": 15.45
             }
         ],
         "price": 3,
@@ -639,67 +639,67 @@
         "menuItems": [
             {
                 "name": "Apple strudel",
-                "price": 6.95
-            },
-            {
-                "name": "Apricot dumpling with yogurt topping ",
-                "price": 3.95
-            },
-            {
-                "name": "Balkánský Salad",
-                "price": 3.95
-            },
-            {
-                "name": "Beef goulash",
-                "price": 8.95
-            },
-            {
-                "name": "Chicken breast fillet schnitzel ",
-                "price": 10.45
-            },
-            {
-                "name": "Cucumber Salad",
-                "price": 7.55
-            },
-            {
-                "name": "Dumplings",
-                "price": 5.95
-            },
-            {
-                "name": "Fried goose liver with onion and bread",
-                "price": 7.55
-            },
-            {
-                "name": "Halusky with sauerkraut and belly bacon ",
                 "price": 9.95
             },
             {
+                "name": "Apricot dumpling with yogurt topping ",
+                "price": 7.95
+            },
+            {
+                "name": "Balkánský Salad",
+                "price": 7.95
+            },
+            {
+                "name": "Beef goulash",
+                "price": 9.95
+            },
+            {
+                "name": "Chicken breast fillet schnitzel ",
+                "price": 14.45
+            },
+            {
+                "name": "Cucumber Salad",
+                "price": 10.55
+            },
+            {
+                "name": "Dumplings",
+                "price": 7.95
+            },
+            {
+                "name": "Fried goose liver with onion and bread",
+                "price": 9.55
+            },
+            {
+                "name": "Halusky with sauerkraut and belly bacon ",
+                "price": 12.95
+            },
+            {
                 "name": "Lentil soup",
-                "price": 4.5
+                "price": 6.5
             },
             {
                 "name": "Pickles with cabbage and cheddar",
-                "price": 10.45
+                "price": 13.45
             },
             {
                 "name": "Pork schnitzel",
-                "price": 3.95
-            },
-            {
-                "name": "Potato pancake with bacon",
                 "price": 5.95
             },
             {
+                "name": "Potato pancake with bacon",
+                "price": 7.95
+            },
+            {
                 "name": "Potato Salad",
-                "price": 4.55
+                "price": 6.55
             },
             {
                 "name": "Segedínský gulash and dumplings",
-                "price": 6.95
+                "price": 9.95
             },
             {
                 "name": "Sour cabbage soup",
-                "price": 10.45
+                "price": 13.45
             }
         ],
         "price": 1,
@@ -725,79 +725,79 @@
         "menuItems": [
             {
                 "name": "Bockwurst Würstchen",
-                "price": 4.95
-            },
-            {
-                "name": "Bratwurst mit Brötchen und Sauerkraut",
-                "price": 5.95
-            },
-            {
-                "name": "Currywurst mit Brötchen",
-                "price": 5.95
-            },
-            {
-                "name": "Das Hausmannskost",
-                "price": 11.45
-            },
-            {
-                "name": "Fleishkas mit Kartoffelsalat",
-                "price": 6.95
-            },
-            {
-                "name": "Frankfurter Würstchen",
-                "price": 9.95
-            },
-            {
-                "name": "Französische Zwiebelsuppe mit Käse",
-                "price": 10.45
-            },
-            {
-                "name": "Frikadelle mit Brötchen",
-                "price": 6.95
-            },
-            {
-                "name": "Gebackener Camenbert",
-                "price": 7.55
-            },
-            {
-                "name": "Gemischter Salat",
-                "price": 4.55
-            },
-            {
-                "name": "Haus Salatteller",
-                "price": 11.45
-            },
-            {
-                "name": "Jaegerschnitzel",
-                "price": 9.95
-            },
-            {
-                "name": "Kaesepaetzle",
-                "price": 6.95
-            },
-            {
-                "name": "Kartoffel Reibekuchen mit Apfelmus",
-                "price": 5.95
-            },
-            {
-                "name": "Maultaschen mit Käse",
                 "price": 7.95
             },
             {
-                "name": "Sauerbraten",
-                "price": 10.45
+                "name": "Bratwurst mit Brötchen und Sauerkraut",
+                "price": 7.95
             },
             {
-                "name": "Ungarische Gulaschsuppe mit Brötchen",
-                "price": 3.95
-            },
-            {
-                "name": "Wienerschnitzel",
+                "name": "Currywurst mit Brötchen",
                 "price": 8.95
             },
             {
+                "name": "Das Hausmannskost",
+                "price": 13.45
+            },
+            {
+                "name": "Fleishkas mit Kartoffelsalat",
+                "price": 8.95
+            },
+            {
+                "name": "Frankfurter Würstchen",
+                "price": 12.95
+            },
+            {
+                "name": "Französische Zwiebelsuppe mit Käse",
+                "price": 14.45
+            },
+            {
+                "name": "Frikadelle mit Brötchen",
+                "price": 8.95
+            },
+            {
+                "name": "Gebackener Camenbert",
+                "price": 9.55
+            },
+            {
+                "name": "Gemischter Salat",
+                "price": 6.55
+            },
+            {
+                "name": "Haus Salatteller",
+                "price": 14.45
+            },
+            {
+                "name": "Jaegerschnitzel",
+                "price": 12.95
+            },
+            {
+                "name": "Kaesepaetzle",
+                "price": 8.95
+            },
+            {
+                "name": "Kartoffel Reibekuchen mit Apfelmus",
+                "price": 7.95
+            },
+            {
+                "name": "Maultaschen mit Käse",
+                "price": 9.95
+            },
+            {
+                "name": "Sauerbraten",
+                "price": 13.45
+            },
+            {
+                "name": "Ungarische Gulaschsuppe mit Brötchen",
+                "price": 5.95
+            },
+            {
+                "name": "Wienerschnitzel",
+                "price": 12.95
+            },
+            {
                 "name": "Wurstsalad mit Bauernbrot",
-                "price": 6.95
+                "price": 8.95
             }
         ],
         "price": 3,
@@ -821,71 +821,71 @@
         "menuItems": [
             {
                 "name": "Almond cookie",
-                "price": 5.95
-            },
-            {
-                "name": "Chicken and broccoli",
-                "price": 9.95
-            },
-            {
-                "name": "Chow mein",
-                "price": 4.95
-            },
-            {
-                "name": "Egg rolls (4)",
-                "price": 3.95
-            },
-            {
-                "name": "General Tao's chicken",
-                "price": 5.95
-            },
-            {
-                "name": "Hot and Sour Soup",
-                "price": 7.55
-            },
-            {
-                "name": "Hunan dumplings",
-                "price": 6.5
-            },
-            {
-                "name": "Mongolian beef",
-                "price": 6.95
-            },
-            {
-                "name": "Pan-fried beef noodle",
                 "price": 7.95
             },
             {
+                "name": "Chicken and broccoli",
+                "price": 12.95
+            },
+            {
+                "name": "Chow mein",
+                "price": 7.95
+            },
+            {
+                "name": "Egg rolls (4)",
+                "price": 6.95
+            },
+            {
+                "name": "General Tao's chicken",
+                "price": 7.95
+            },
+            {
+                "name": "Hot and Sour Soup",
+                "price": 9.55
+            },
+            {
+                "name": "Hunan dumplings",
+                "price": 8.5
+            },
+            {
+                "name": "Mongolian beef",
+                "price": 9.95
+            },
+            {
+                "name": "Pan-fried beef noodle",
+                "price": 9.95
+            },
+            {
                 "name": "Pea shoots with garlic",
-                "price": 8.95
+                "price": 11.95
             },
             {
                 "name": "Potstickers (6)",
-                "price": 6.95
+                "price": 8.95
             },
             {
                 "name": "Seafood hotpot",
-                "price": 4.95
+                "price": 7.95
             },
             {
                 "name": "Steamed rice",
-                "price": 5.95
+                "price": 8.95
             },
             {
                 "name": "Sweet and sour pork",
-                "price": 6.95
+                "price": 8.95
             },
             {
                 "name": "Walnut prawns",
-                "price": 4.95
+                "price": 6.95
             },
             {
                 "name": "Wonton Soup",
-                "price": 6.25
+                "price": 8.25
             },
             {
                 "name": "Young Chow fried rice",
-                "price": 6.45
+                "price": 8.45
             }
         ],
         "price": 2,
@@ -911,71 +911,71 @@
         "menuItems": [
             {
                 "name": "Basil duck with rice",
-                "price": 4.55
+                "price": 6.55
             },
             {
                 "name": "Curry salmon",
-                "price": 12.45
+                "price": 15.45
             },
             {
                 "name": "Egg rolls (4)",
-                "price": 5.95
+                "price": 7.95
             },
             {
                 "name": "Fried banana and ice cream",
-                "price": 11.45
+                "price": 12.45
             },
             {
                 "name": "Green curry with chicken",
-                "price": 3.95
+                "price": 6.95
             },
             {
                 "name": "Green curry with pork",
-                "price": 4.55
+                "price": 6.55
             },
             {
                 "name": "Hot tea",
-                "price": 2.5
+                "price": 3.5
             },
             {
                 "name": "Onion pancake",
-                "price": 6.95
-            },
-            {
-                "name": "Pad See Ew",
-                "price": 4.95
-            },
-            {
-                "name": "Pad Thai",
-                "price": 6.95
-            },
-            {
-                "name": "Pumpkin curry",
-                "price": 6.95
-            },
-            {
-                "name": "Red curry with chicken",
                 "price": 8.95
             },
             {
+                "name": "Pad See Ew",
+                "price": 6.95
+            },
+            {
+                "name": "Pad Thai",
+                "price": 8.95
+            },
+            {
+                "name": "Pumpkin curry",
+                "price": 7.95
+            },
+            {
+                "name": "Red curry with chicken",
+                "price": 11.95
+            },
+            {
                 "name": "Red curry with pork",
-                "price": 9.95
+                "price": 14.95
             },
             {
                 "name": "Sticky rice with mango",
-                "price": 6.95
+                "price": 8.95
             },
             {
                 "name": "Thai iced coffee",
-                "price": 6.95
+                "price": 8.95
             },
             {
                 "name": "Thai iced tea",
-                "price": 3.95
+                "price": 5.95
             },
             {
                 "name": "Tofu salad rolls",
-                "price": 10.45
+                "price": 13.45
             }
         ],
         "price": 4,
@@ -999,75 +999,75 @@
         "menuItems": [
             {
                 "name": "Beans and rice",
-                "price": 7.95
+                "price": 9.95
             },
             {
                 "name": "Beef burrito",
-                "price": 6.95
+                "price": 10.95
             },
             {
                 "name": "Birria",
-                "price": 7.95
+                "price": 9.95
             },
             {
                 "name": "Chicken burrito",
-                "price": 11.45
+                "price": 14.45
             },
             {
                 "name": "Chicken mole platter",
-                "price": 5.95
+                "price": 8.95
             },
             {
                 "name": "Chile relleno (meat)",
-                "price": 6.95
+                "price": 9.95
             },
             {
                 "name": "Chile relleno (vegetarian)",
-                "price": 3.95
+                "price": 5.95
             },
             {
                 "name": "Chips and guacamole",
-                "price": 5.95
+                "price": 8.95
             },
             {
                 "name": "Enchiladas",
-                "price": 4.55
+                "price": 8.55
             },
             {
                 "name": "Flan",
-                "price": 7.95
+                "price": 9.95
             },
             {
                 "name": "Jamaica Aqua Fresca",
-                "price": 2.5
+                "price": 5.5
             },
             {
                 "name": "Pork al pastor platter",
-                "price": 5.95
+                "price": 8.95
             },
             {
                 "name": "Sopa de albondigas",
-                "price": 7.95
+                "price": 9.95
             },
             {
                 "name": "Sopa de pollo",
-                "price": 6.95
+                "price": 7.95
             },
             {
                 "name": "Strawberry Aqua Fresca",
-                "price": 3.95
-            },
-            {
-                "name": "Super nachos with carne asada",
                 "price": 5.95
             },
             {
+                "name": "Super nachos with carne asada",
+                "price": 7.95
+            },
+            {
                 "name": "Tacos de la casa (3)",
-                "price": 4.95
+                "price": 6.95
             },
             {
                 "name": "Vegetarian platter",
-                "price": 4.55
+                "price": 7.55
             }
         ],
         "price": 3,
@@ -1093,71 +1093,71 @@
         "menuItems": [
             {
                 "name": "Aloo Gobi",
-                "price": 5.95
-            },
-            {
-                "name": "Basmati rice",
-                "price": 6.95
-            },
-            {
-                "name": "Butter Chicken",
-                "price": 5.95
-            },
-            {
-                "name": "Chicken Korma",
-                "price": 7.55
-            },
-            {
-                "name": "Chicken Tikka Masala",
-                "price": 5.95
-            },
-            {
-                "name": "Gulab Jamun",
-                "price": 8.95
-            },
-            {
-                "name": "Kheer",
-                "price": 4.5
-            },
-            {
-                "name": "Lamb Asparagus",
-                "price": 9.5
-            },
-            {
-                "name": "Lamb Vindaloo",
                 "price": 7.95
             },
             {
+                "name": "Basmati rice",
+                "price": 8.95
+            },
+            {
+                "name": "Butter Chicken",
+                "price": 7.95
+            },
+            {
+                "name": "Chicken Korma",
+                "price": 9.55
+            },
+            {
+                "name": "Chicken Tikka Masala",
+                "price": 8.95
+            },
+            {
+                "name": "Gulab Jamun",
+                "price": 11.95
+            },
+            {
+                "name": "Kheer",
+                "price": 6.5
+            },
+            {
+                "name": "Lamb Asparagus",
+                "price": 14.5
+            },
+            {
+                "name": "Lamb Vindaloo",
+                "price": 13.95
+            },
+            {
                 "name": "Mix Grill Bombay",
-                "price": 5.95
+                "price": 11.95
             },
             {
                 "name": "Mulligatawny soup",
-                "price": 5.95
+                "price": 8.95
             },
             {
                 "name": "Murgh Chicken",
-                "price": 3.95
+                "price": 6.95
             },
             {
                 "name": "Naan stuffed with spinach and lamb",
-                "price": 4.55
+                "price": 6.55
             },
             {
                 "name": "Plain naan",
-                "price": 5.95
+                "price": 6.95
             },
             {
                 "name": "Rogan Josh",
-                "price": 5.95
+                "price": 7.95
             },
             {
                 "name": "Saag Paneer",
-                "price": 5.95
+                "price": 7.95
             },
             {
                 "name": "Tandoori Chicken",
-                "price": 4.95
+                "price": 6.95
             }
         ],
         "price": 4,
@@ -1182,67 +1182,67 @@
         "menuItems": [
             {
                 "name": "Dibi Lamb",
-                "price": 8.25
+                "price": 11.25
             },
             {
                 "name": "Doro Wat",
-                "price": 5.95
+                "price": 7.95
             },
             {
                 "name": "Grilled Chicken",
-                "price": 4.95
+                "price": 6.95
             },
             {
                 "name": "Grilled Fish",
-                "price": 6.95
-            },
-            {
-                "name": "Grilled Plantains in Spicy Peanut Sauce",
-                "price": 7.95
-            },
-            {
-                "name": "Lamb Mafe (Peanut Butter Stew)",
-                "price": 8.75
-            },
-            {
-                "name": "Meat Pie",
-                "price": 6
-            },
-            {
-                "name": "Mechoui with Plantains",
-                "price": 5.95
-            },
-            {
-                "name": "Pepper Soup",
-                "price": 9.95
-            },
-            {
-                "name": "Piri-Piri Shrimp",
-                "price": 11.45
-            },
-            {
-                "name": "Suppa Kandja",
-                "price": 3.95
-            },
-            {
-                "name": "Thiou Boulette",
-                "price": 6.95
-            },
-            {
-                "name": "Thiou Curry with Chicken",
-                "price": 7.95
-            },
-            {
-                "name": "Thu Okra",
-                "price": 6.95
-            },
-            {
-                "name": "Yassa Chicken",
                 "price": 8.95
             },
             {
+                "name": "Grilled Plantains in Spicy Peanut Sauce",
+                "price": 9.95
+            },
+            {
+                "name": "Lamb Mafe (Peanut Butter Stew)",
+                "price": 11.75
+            },
+            {
+                "name": "Meat Pie",
+                "price": 8
+            },
+            {
+                "name": "Mechoui with Plantains",
+                "price": 7.95
+            },
+            {
+                "name": "Pepper Soup",
+                "price": 11.95
+            },
+            {
+                "name": "Piri-Piri Shrimp",
+                "price": 12.45
+            },
+            {
+                "name": "Suppa Kandja",
+                "price": 6.95
+            },
+            {
+                "name": "Thiou Boulette",
+                "price": 8.95
+            },
+            {
+                "name": "Thiou Curry with Chicken",
+                "price": 9.95
+            },
+            {
+                "name": "Thu Okra",
+                "price": 8.95
+            },
+            {
+                "name": "Yassa Chicken",
+                "price": 10.95
+            },
+            {
                 "name": "Yassa Lamb",
-                "price": 8.25
+                "price": 10.25
             }
         ],
         "price": 2,
@@ -1267,71 +1267,71 @@
         "menuItems": [
             {
                 "name": "Buffalo wings",
-                "price": 5.95
-            },
-            {
-                "name": "California-style baked Tilapia with rice",
-                "price": 6.95
-            },
-            {
-                "name": "Cheeseburger and fries",
-                "price": 4.55
-            },
-            {
-                "name": "Cherry pie a la mode",
-                "price": 4.95
-            },
-            {
-                "name": "Chocolate milkshake",
-                "price": 6.95
-            },
-            {
-                "name": "Cobb salad",
-                "price": 4.95
-            },
-            {
-                "name": "Famous BLT on a kaiser roll with fries",
-                "price": 4.95
-            },
-            {
-                "name": "Firehouse chili",
-                "price": 6.95
-            },
-            {
-                "name": "Goat cheese and eggplant wrap (vegetarian)",
-                "price": 5.95
-            },
-            {
-                "name": "Greek salad",
-                "price": 6.95
-            },
-            {
-                "name": "Grilled chicken sandwich",
-                "price": 4.95
-            },
-            {
-                "name": "Grilled sausage on a bun",
-                "price": 6.95
-            },
-            {
-                "name": "Housemade pot roast with seasonal vegetable",
-                "price": 16.95
-            },
-            {
-                "name": "Roast beef dip",
-                "price": 11.45
-            },
-            {
-                "name": "Roast chicken and mashed potatoes",
-                "price": 7.55
-            },
-            {
-                "name": "Soup of the day",
                 "price": 8.95
             },
             {
+                "name": "California-style baked Tilapia with rice",
+                "price": 8.95
+            },
+            {
+                "name": "Cheeseburger and fries",
+                "price": 7.55
+            },
+            {
+                "name": "Cherry pie a la mode",
+                "price": 8.95
+            },
+            {
+                "name": "Chocolate milkshake",
+                "price": 9.95
+            },
+            {
+                "name": "Cobb salad",
+                "price": 6.95
+            },
+            {
+                "name": "Famous BLT on a kaiser roll with fries",
+                "price": 6.95
+            },
+            {
+                "name": "Firehouse chili",
+                "price": 9.95
+            },
+            {
+                "name": "Goat cheese and eggplant wrap (vegetarian)",
+                "price": 8.95
+            },
+            {
+                "name": "Greek salad",
+                "price": 9.95
+            },
+            {
+                "name": "Grilled chicken sandwich",
+                "price": 7.95
+            },
+            {
+                "name": "Grilled sausage on a bun",
+                "price": 9.95
+            },
+            {
+                "name": "Housemade pot roast with seasonal vegetable",
+                "price": 18.95
+            },
+            {
+                "name": "Roast beef dip",
+                "price": 13.45
+            },
+            {
+                "name": "Roast chicken and mashed potatoes",
+                "price": 9.55
+            },
+            {
+                "name": "Soup of the day",
+                "price": 9.95
+            },
+            {
                 "name": "Spaghetti and meatballs",
-                "price": 11.45
+                "price": 15.45
             }
         ],
         "price": 5,
@@ -1357,71 +1357,71 @@
         "menuItems": [
             {
                 "name": "BBQ chicken",
-                "price": 4.95
+                "price": 7.95
             },
             {
                 "name": "Beef ribs (full)",
-                "price": 9.95
+                "price": 12.95
             },
             {
                 "name": "Beef ribs (delux)",
-                "price": 10.45
+                "price": 14.45
             },
             {
                 "name": "Beef ribs (half)",
-                "price": 6.45
+                "price": 8.45
             },
             {
                 "name": "Beer",
-                "price": 7.55
+                "price": 9.55
             },
             {
                 "name": "Coleslaw",
-                "price": 8.95
+                "price": 11.95
             },
             {
                 "name": "Collards",
-                "price": 9.95
+                "price": 13.95
             },
             {
                 "name": "Cornbread",
-                "price": 11.45
+                "price": 17.45
             },
             {
                 "name": "Devilled eggs",
-                "price": 4
+                "price": 7
             },
             {
                 "name": "German chocolate cake",
-                "price": 5.95
+                "price": 7.95
             },
             {
                 "name": "Housemade chips",
-                "price": 4
+                "price": 7
             },
             {
                 "name": "Hushpuppies",
-                "price": 3.25
+                "price": 6.25
             },
             {
                 "name": "Mac and cheese",
-                "price": 6
+                "price": 7
             },
             {
                 "name": "Pork ribs (half)",
-                "price": 6.95
+                "price": 9.95
             },
             {
                 "name": "Potato salad",
-                "price": 3.95
+                "price": 6.95
             },
             {
                 "name": "Pulled pork sandwich on a soft roll",
-                "price": 4.95
+                "price": 7.95
             },
             {
                 "name": "Riblets",
-                "price": 10.45
+                "price": 15.45
             }
         ],
         "price": 3,
@@ -1445,67 +1445,67 @@
         "menuItems": [
             {
                 "name": "Apple strudel",
-                "price": 6.95
-            },
-            {
-                "name": "Apricot dumpling with yogurt topping ",
-                "price": 3.95
-            },
-            {
-                "name": "Balkánský Salad",
-                "price": 3.95
-            },
-            {
-                "name": "Beef goulash",
                 "price": 8.95
             },
             {
+                "name": "Apricot dumpling with yogurt topping ",
+                "price": 5.95
+            },
+            {
+                "name": "Balkánský Salad",
+                "price": 5.95
+            },
+            {
+                "name": "Beef goulash",
+                "price": 10.95
+            },
+            {
                 "name": "Chicken breast fillet schnitzel ",
-                "price": 10.45
+                "price": 14.45
             },
             {
                 "name": "Cucumber Salad",
-                "price": 7.55
+                "price": 9.55
             },
             {
                 "name": "Dumplings",
-                "price": 5.95
+                "price": 7.95
             },
             {
                 "name": "Fried goose liver with onion and bread",
-                "price": 7.55
+                "price": 9.55
             },
             {
                 "name": "Halusky with sauerkraut and belly bacon ",
-                "price": 9.95
+                "price": 10.95
             },
             {
                 "name": "Lentil soup",
-                "price": 4.5
+                "price": 14.5
             },
             {
                 "name": "Pickles with cabbage and cheddar",
-                "price": 10.45
+                "price": 18.45
             },
             {
                 "name": "Pork schnitzel",
-                "price": 3.95
+                "price": 9.95
             },
             {
                 "name": "Potato pancake with bacon",
-                "price": 5.95
+                "price": 8.95
             },
             {
                 "name": "Potato Salad",
-                "price": 4.55
+                "price": 6.55
             },
             {
                 "name": "Segedínský gulash and dumplings",
-                "price": 6.95
+                "price": 9.95
             },
             {
                 "name": "Sour cabbage soup",
-                "price": 10.45
+                "price": 14.45
             }
         ],
         "price": 4,
@@ -1531,79 +1531,79 @@
         "menuItems": [
             {
                 "name": "Bockwurst Würstchen",
-                "price": 4.95
+                "price": 6.95
             },
             {
                 "name": "Bratwurst mit Brötchen und Sauerkraut",
-                "price": 5.95
+                "price": 9.95
             },
             {
                 "name": "Currywurst mit Brötchen",
-                "price": 5.95
-            },
-            {
-                "name": "Das Hausmannskost",
-                "price": 11.45
-            },
-            {
-                "name": "Fleishkas mit Kartoffelsalat",
-                "price": 6.95
-            },
-            {
-                "name": "Frankfurter Würstchen",
-                "price": 9.95
-            },
-            {
-                "name": "Französische Zwiebelsuppe mit Käse",
-                "price": 10.45
-            },
-            {
-                "name": "Frikadelle mit Brötchen",
-                "price": 6.95
-            },
-            {
-                "name": "Gebackener Camenbert",
-                "price": 7.55
-            },
-            {
-                "name": "Gemischter Salat",
-                "price": 4.55
-            },
-            {
-                "name": "Haus Salatteller",
-                "price": 11.45
-            },
-            {
-                "name": "Jaegerschnitzel",
-                "price": 9.95
-            },
-            {
-                "name": "Kaesepaetzle",
-                "price": 6.95
-            },
-            {
-                "name": "Kartoffel Reibekuchen mit Apfelmus",
-                "price": 5.95
-            },
-            {
-                "name": "Maultaschen mit Käse",
                 "price": 7.95
             },
             {
-                "name": "Sauerbraten",
-                "price": 10.45
+                "name": "Das Hausmannskost",
+                "price": 14.45
             },
             {
-                "name": "Ungarische Gulaschsuppe mit Brötchen",
-                "price": 3.95
-            },
-            {
-                "name": "Wienerschnitzel",
+                "name": "Fleishkas mit Kartoffelsalat",
                 "price": 8.95
             },
             {
+                "name": "Frankfurter Würstchen",
+                "price": 14.95
+            },
+            {
+                "name": "Französische Zwiebelsuppe mit Käse",
+                "price": 14.45
+            },
+            {
+                "name": "Frikadelle mit Brötchen",
+                "price": 8.95
+            },
+            {
+                "name": "Gebackener Camenbert",
+                "price": 9.55
+            },
+            {
+                "name": "Gemischter Salat",
+                "price": 6.55
+            },
+            {
+                "name": "Haus Salatteller",
+                "price": 14.45
+            },
+            {
+                "name": "Jaegerschnitzel",
+                "price": 14.95
+            },
+            {
+                "name": "Kaesepaetzle",
+                "price": 8.95
+            },
+            {
+                "name": "Kartoffel Reibekuchen mit Apfelmus",
+                "price": 7.95
+            },
+            {
+                "name": "Maultaschen mit Käse",
+                "price": 9.95
+            },
+            {
+                "name": "Sauerbraten",
+                "price": 13.45
+            },
+            {
+                "name": "Ungarische Gulaschsuppe mit Brötchen",
+                "price": 5.95
+            },
+            {
+                "name": "Wienerschnitzel",
+                "price": 11.95
+            },
+            {
                 "name": "Wurstsalad mit Bauernbrot",
-                "price": 6.95
+                "price": 8.95
             }
         ],
         "price": 3,
@@ -1627,71 +1627,71 @@
         "menuItems": [
             {
                 "name": "Almond cookie",
-                "price": 5.95
-            },
-            {
-                "name": "Chicken and broccoli",
-                "price": 9.95
-            },
-            {
-                "name": "Chow mein",
-                "price": 4.95
-            },
-            {
-                "name": "Egg rolls (4)",
-                "price": 3.95
-            },
-            {
-                "name": "General Tao's chicken",
-                "price": 5.95
-            },
-            {
-                "name": "Hot and Sour Soup",
-                "price": 7.55
-            },
-            {
-                "name": "Hunan dumplings",
-                "price": 6.5
-            },
-            {
-                "name": "Mongolian beef",
-                "price": 6.95
-            },
-            {
-                "name": "Pan-fried beef noodle",
                 "price": 7.95
             },
             {
-                "name": "Pea shoots with garlic",
-                "price": 8.95
+                "name": "Chicken and broccoli",
+                "price": 12.95
             },
             {
-                "name": "Potstickers (6)",
-                "price": 6.95
+                "name": "Chow mein",
+                "price": 7.95
             },
             {
-                "name": "Seafood hotpot",
-                "price": 4.95
-            },
-            {
-                "name": "Steamed rice",
+                "name": "Egg rolls (4)",
                 "price": 5.95
             },
             {
-                "name": "Sweet and sour pork",
+                "name": "General Tao's chicken",
+                "price": 7.95
+            },
+            {
+                "name": "Hot and Sour Soup",
+                "price": 9.55
+            },
+            {
+                "name": "Hunan dumplings",
+                "price": 8.5
+            },
+            {
+                "name": "Mongolian beef",
+                "price": 9.95
+            },
+            {
+                "name": "Pan-fried beef noodle",
+                "price": 10.95
+            },
+            {
+                "name": "Pea shoots with garlic",
+                "price": 11.95
+            },
+            {
+                "name": "Potstickers (6)",
+                "price": 9.95
+            },
+            {
+                "name": "Seafood hotpot",
                 "price": 6.95
             },
             {
+                "name": "Steamed rice",
+                "price": 7.95
+            },
+            {
+                "name": "Sweet and sour pork",
+                "price": 9.95
+            },
+            {
                 "name": "Walnut prawns",
-                "price": 4.95
+                "price": 6.95
             },
             {
                 "name": "Wonton Soup",
-                "price": 6.25
+                "price": 8.25
             },
             {
                 "name": "Young Chow fried rice",
-                "price": 6.45
+                "price": 9.45
             }
         ],
         "price": 1,
@@ -1717,71 +1717,71 @@
         "menuItems": [
             {
                 "name": "Basil duck with rice",
-                "price": 4.55
+                "price": 6.55
             },
             {
                 "name": "Curry salmon",
-                "price": 12.45
+                "price": 15.45
             },
             {
                 "name": "Egg rolls (4)",
-                "price": 5.95
+                "price": 7.95
             },
             {
                 "name": "Fried banana and ice cream",
-                "price": 11.45
+                "price": 14.45
             },
             {
                 "name": "Green curry with chicken",
-                "price": 3.95
+                "price": 6.95
             },
             {
                 "name": "Green curry with pork",
-                "price": 4.55
+                "price": 8.55
             },
             {
                 "name": "Hot tea",
-                "price": 2.5
+                "price": 3.5
             },
             {
                 "name": "Onion pancake",
-                "price": 6.95
-            },
-            {
-                "name": "Pad See Ew",
-                "price": 4.95
-            },
-            {
-                "name": "Pad Thai",
-                "price": 6.95
-            },
-            {
-                "name": "Pumpkin curry",
-                "price": 6.95
-            },
-            {
-                "name": "Red curry with chicken",
                 "price": 8.95
             },
             {
-                "name": "Red curry with pork",
+                "name": "Pad See Ew",
+                "price": 6.95
+            },
+            {
+                "name": "Pad Thai",
                 "price": 9.95
             },
             {
+                "name": "Pumpkin curry",
+                "price": 8.95
+            },
+            {
+                "name": "Red curry with chicken",
+                "price": 11.95
+            },
+            {
+                "name": "Red curry with pork",
+                "price": 14.95
+            },
+            {
                 "name": "Sticky rice with mango",
-                "price": 6.95
+                "price": 8.95
             },
             {
                 "name": "Thai iced coffee",
-                "price": 6.95
+                "price": 8.95
             },
             {
                 "name": "Thai iced tea",
-                "price": 3.95
+                "price": 5.95
             },
             {
                 "name": "Tofu salad rolls",
-                "price": 10.45
+                "price": 13.45
             }
         ],
         "price": 3,
@@ -1806,75 +1806,75 @@
         "menuItems": [
             {
                 "name": "Beans and rice",
-                "price": 7.95
+                "price": 9.95
             },
             {
                 "name": "Beef burrito",
-                "price": 6.95
+                "price": 10.95
             },
             {
                 "name": "Birria",
-                "price": 7.95
+                "price": 11.95
             },
             {
                 "name": "Chicken burrito",
-                "price": 11.45
+                "price": 13.45
             },
             {
                 "name": "Chicken mole platter",
-                "price": 5.95
+                "price": 7.95
             },
             {
                 "name": "Chile relleno (meat)",
-                "price": 6.95
+                "price": 9.95
             },
             {
                 "name": "Chile relleno (vegetarian)",
-                "price": 3.95
+                "price": 5.95
             },
             {
                 "name": "Chips and guacamole",
-                "price": 5.95
+                "price": 7.95
             },
             {
                 "name": "Enchiladas",
-                "price": 4.55
+                "price": 6.55
             },
             {
                 "name": "Flan",
-                "price": 7.95
+                "price": 9.95
             },
             {
                 "name": "Jamaica Aqua Fresca",
-                "price": 2.5
+                "price": 4.5
             },
             {
                 "name": "Pork al pastor platter",
-                "price": 5.95
-            },
-            {
-                "name": "Sopa de albondigas",
                 "price": 7.95
             },
             {
+                "name": "Sopa de albondigas",
+                "price": 10.95
+            },
+            {
                 "name": "Sopa de pollo",
-                "price": 6.95
+                "price": 8.95
             },
             {
                 "name": "Strawberry Aqua Fresca",
-                "price": 3.95
-            },
-            {
-                "name": "Super nachos with carne asada",
                 "price": 5.95
             },
             {
+                "name": "Super nachos with carne asada",
+                "price": 7.95
+            },
+            {
                 "name": "Tacos de la casa (3)",
-                "price": 4.95
+                "price": 6.95
             },
             {
                 "name": "Vegetarian platter",
-                "price": 4.55
+                "price": 8.55
             }
         ],
         "price": 2,
@@ -1899,71 +1899,71 @@
         "menuItems": [
             {
                 "name": "Aloo Gobi",
-                "price": 5.95
-            },
-            {
-                "name": "Basmati rice",
-                "price": 6.95
-            },
-            {
-                "name": "Butter Chicken",
-                "price": 5.95
-            },
-            {
-                "name": "Chicken Korma",
-                "price": 7.55
-            },
-            {
-                "name": "Chicken Tikka Masala",
-                "price": 5.95
-            },
-            {
-                "name": "Gulab Jamun",
-                "price": 8.95
-            },
-            {
-                "name": "Kheer",
-                "price": 4.5
-            },
-            {
-                "name": "Lamb Asparagus",
-                "price": 9.5
-            },
-            {
-                "name": "Lamb Vindaloo",
                 "price": 7.95
             },
             {
+                "name": "Basmati rice",
+                "price": 7.95
+            },
+            {
+                "name": "Butter Chicken",
+                "price": 7.95
+            },
+            {
+                "name": "Chicken Korma",
+                "price": 9.55
+            },
+            {
+                "name": "Chicken Tikka Masala",
+                "price": 7.95
+            },
+            {
+                "name": "Gulab Jamun",
+                "price": 10.95
+            },
+            {
+                "name": "Kheer",
+                "price": 6.5
+            },
+            {
+                "name": "Lamb Asparagus",
+                "price": 12.5
+            },
+            {
+                "name": "Lamb Vindaloo",
+                "price": 9.95
+            },
+            {
                 "name": "Mix Grill Bombay",
-                "price": 5.95
+                "price": 8.95
             },
             {
                 "name": "Mulligatawny soup",
-                "price": 5.95
+                "price": 7.95
             },
             {
                 "name": "Murgh Chicken",
-                "price": 3.95
+                "price": 5.95
             },
             {
                 "name": "Naan stuffed with spinach and lamb",
-                "price": 4.55
+                "price": 7.55
             },
             {
                 "name": "Plain naan",
-                "price": 5.95
+                "price": 7.95
             },
             {
                 "name": "Rogan Josh",
-                "price": 5.95
+                "price": 8.95
             },
             {
                 "name": "Saag Paneer",
-                "price": 5.95
+                "price": 8.95
             },
             {
                 "name": "Tandoori Chicken",
-                "price": 4.95
+                "price": 6.95
             }
         ],
         "price": 4,
@@ -1989,75 +1989,75 @@
         "menuItems": [
             {
                 "name": "Beans and rice",
-                "price": 7.95
+                "price": 8.95
             },
             {
                 "name": "Beef burrito",
-                "price": 6.95
+                "price": 9.95
             },
             {
                 "name": "Birria",
-                "price": 7.95
+                "price": 10.95
             },
             {
                 "name": "Chicken burrito",
-                "price": 11.45
+                "price": 14.45
             },
             {
                 "name": "Chicken mole platter",
-                "price": 5.95
+                "price": 7.95
             },
             {
                 "name": "Chile relleno (meat)",
-                "price": 6.95
+                "price": 8.95
             },
             {
                 "name": "Chile relleno (vegetarian)",
-                "price": 3.95
+                "price": 5.95
             },
             {
                 "name": "Chips and guacamole",
-                "price": 5.95
+                "price": 8.95
             },
             {
                 "name": "Enchiladas",
-                "price": 4.55
+                "price": 7.55
             },
             {
                 "name": "Flan",
-                "price": 7.95
+                "price": 9.95
             },
             {
                 "name": "Jamaica Aqua Fresca",
-                "price": 2.5
+                "price": 4.5
             },
             {
                 "name": "Pork al pastor platter",
-                "price": 5.95
-            },
-            {
-                "name": "Sopa de albondigas",
                 "price": 7.95
             },
             {
+                "name": "Sopa de albondigas",
+                "price": 9.95
+            },
+            {
                 "name": "Sopa de pollo",
-                "price": 6.95
+                "price": 8.95
             },
             {
                 "name": "Strawberry Aqua Fresca",
-                "price": 3.95
-            },
-            {
-                "name": "Super nachos with carne asada",
                 "price": 5.95
             },
             {
+                "name": "Super nachos with carne asada",
+                "price": 7.95
+            },
+            {
                 "name": "Tacos de la casa (3)",
-                "price": 4.95
+                "price": 6.95
             },
             {
                 "name": "Vegetarian platter",
-                "price": 4.55
+                "price": 6.55
             }
         ],
         "price": 3,
@@ -2081,75 +2081,75 @@
         "menuItems": [
             {
                 "name": "Beans and rice",
-                "price": 7.95
+                "price": 9.95
             },
             {
                 "name": "Beef burrito",
-                "price": 6.95
+                "price": 10.95
             },
             {
                 "name": "Birria",
-                "price": 7.95
+                "price": 11.95
             },
             {
                 "name": "Chicken burrito",
-                "price": 11.45
+                "price": 15.45
             },
             {
                 "name": "Chicken mole platter",
-                "price": 5.95
+                "price": 8.95
             },
             {
                 "name": "Chile relleno (meat)",
-                "price": 6.95
+                "price": 9.95
             },
             {
                 "name": "Chile relleno (vegetarian)",
-                "price": 3.95
+                "price": 5.95
             },
             {
                 "name": "Chips and guacamole",
-                "price": 5.95
+                "price": 7.95
             },
             {
                 "name": "Enchiladas",
-                "price": 4.55
+                "price": 6.55
             },
             {
                 "name": "Flan",
-                "price": 7.95
+                "price": 9.95
             },
             {
                 "name": "Jamaica Aqua Fresca",
-                "price": 2.5
+                "price": 4.5
             },
             {
                 "name": "Pork al pastor platter",
-                "price": 5.95
+                "price": 8.95
             },
             {
                 "name": "Sopa de albondigas",
-                "price": 7.95
+                "price": 10.95
             },
             {
                 "name": "Sopa de pollo",
-                "price": 6.95
+                "price": 8.95
             },
             {
                 "name": "Strawberry Aqua Fresca",
-                "price": 3.95
+                "price": 6.95
             },
             {
                 "name": "Super nachos with carne asada",
-                "price": 5.95
+                "price": 8.95
             },
             {
                 "name": "Tacos de la casa (3)",
-                "price": 4.95
+                "price": 6.95
             },
             {
                 "name": "Vegetarian platter",
-                "price": 4.55
+                "price": 7.55
             }
         ],
         "price": 4,
@@ -2175,71 +2175,71 @@
         "menuItems": [
             {
                 "name": "Almond cookie",
-                "price": 5.95
+                "price": 6.95
             },
             {
                 "name": "Chicken and broccoli",
-                "price": 9.95
+                "price": 14.95
             },
             {
                 "name": "Chow mein",
-                "price": 4.95
-            },
-            {
-                "name": "Egg rolls (4)",
-                "price": 3.95
-            },
-            {
-                "name": "General Tao's chicken",
-                "price": 5.95
-            },
-            {
-                "name": "Hot and Sour Soup",
-                "price": 7.55
-            },
-            {
-                "name": "Hunan dumplings",
-                "price": 6.5
-            },
-            {
-                "name": "Mongolian beef",
-                "price": 6.95
-            },
-            {
-                "name": "Pan-fried beef noodle",
                 "price": 7.95
             },
             {
-                "name": "Pea shoots with garlic",
-                "price": 8.95
-            },
-            {
-                "name": "Potstickers (6)",
-                "price": 6.95
-            },
-            {
-                "name": "Seafood hotpot",
-                "price": 4.95
-            },
-            {
-                "name": "Steamed rice",
+                "name": "Egg rolls (4)",
                 "price": 5.95
             },
             {
+                "name": "General Tao's chicken",
+                "price": 8.95
+            },
+            {
+                "name": "Hot and Sour Soup",
+                "price": 10.55
+            },
+            {
+                "name": "Hunan dumplings",
+                "price": 11.5
+            },
+            {
+                "name": "Mongolian beef",
+                "price": 13.95
+            },
+            {
+                "name": "Pan-fried beef noodle",
+                "price": 10.95
+            },
+            {
+                "name": "Pea shoots with garlic",
+                "price": 11.95
+            },
+            {
+                "name": "Potstickers (6)",
+                "price": 9.95
+            },
+            {
+                "name": "Seafood hotpot",
+                "price": 7.95
+            },
+            {
+                "name": "Steamed rice",
+                "price": 8.95
+            },
+            {
                 "name": "Sweet and sour pork",
-                "price": 6.95
+                "price": 9.95
             },
             {
                 "name": "Walnut prawns",
-                "price": 4.95
+                "price": 6.95
             },
             {
                 "name": "Wonton Soup",
-                "price": 6.25
+                "price": 9.25
             },
             {
                 "name": "Young Chow fried rice",
-                "price": 6.45
+                "price": 9.45
             }
         ],
         "price": 2,
@@ -2263,71 +2263,71 @@
         "menuItems": [
             {
                 "name": "Aloo Gobi",
-                "price": 5.95
+                "price": 9.95
             },
             {
                 "name": "Basmati rice",
-                "price": 6.95
+                "price": 9.95
             },
             {
                 "name": "Butter Chicken",
-                "price": 5.95
+                "price": 11.95
             },
             {
                 "name": "Chicken Korma",
-                "price": 7.55
+                "price": 12.55
             },
             {
                 "name": "Chicken Tikka Masala",
-                "price": 5.95
+                "price": 11.95
             },
             {
                 "name": "Gulab Jamun",
-                "price": 8.95
+                "price": 10.95
             },
             {
                 "name": "Kheer",
-                "price": 4.5
-            },
-            {
-                "name": "Lamb Asparagus",
                 "price": 9.5
             },
             {
+                "name": "Lamb Asparagus",
+                "price": 14.5
+            },
+            {
                 "name": "Lamb Vindaloo",
-                "price": 7.95
+                "price": 15.95
             },
             {
                 "name": "Mix Grill Bombay",
-                "price": 5.95
+                "price": 14.95
             },
             {
                 "name": "Mulligatawny soup",
-                "price": 5.95
+                "price": 9.95
             },
             {
                 "name": "Murgh Chicken",
-                "price": 3.95
+                "price": 7.95
             },
             {
                 "name": "Naan stuffed with spinach and lamb",
-                "price": 4.55
+                "price": 7.55
             },
             {
                 "name": "Plain naan",
-                "price": 5.95
+                "price": 8.95
             },
             {
                 "name": "Rogan Josh",
-                "price": 5.95
+                "price": 7.95
             },
             {
                 "name": "Saag Paneer",
-                "price": 5.95
+                "price": 8.95
             },
             {
                 "name": "Tandoori Chicken",
-                "price": 4.95
+                "price": 6.95
             }
         ],
         "price": 5,
@@ -2353,71 +2353,71 @@
         "menuItems": [
             {
                 "name": "California roll",
-                "price": 5.95
+                "price": 8.95
             },
             {
                 "name": "Chicken teriyaki",
-                "price": 5.95
+                "price": 9.95
             },
             {
                 "name": "Edamame",
-                "price": 6.95
+                "price": 9.95
             },
             {
                 "name": "Futomaki roll",
-                "price": 5.33
+                "price": 7.33
             },
             {
                 "name": "Green tea ice cream",
-                "price": 6.95
+                "price": 9.95
             },
             {
                 "name": "Kitsune Udon",
-                "price": 9.5
+                "price": 12.5
             },
             {
                 "name": "Miso soup",
-                "price": 5.95
+                "price": 8.95
             },
             {
                 "name": "Pork Katsu",
-                "price": 5.95
+                "price": 7.95
             },
             {
                 "name": "Salmon teriyaki",
-                "price": 5.95
+                "price": 8.95
             },
             {
                 "name": "Sashimi combo",
-                "price": 6.95
+                "price": 9.95
             },
             {
                 "name": "Spicy Yellowtail roll",
-                "price": 7.55
+                "price": 9.55
             },
             {
                 "name": "Sushi combo",
-                "price": 4.55
-            },
-            {
-                "name": "Teppa Maki",
-                "price": 5.95
-            },
-            {
-                "name": "Unagi Don",
                 "price": 7.55
             },
             {
+                "name": "Teppa Maki",
+                "price": 8.95
+            },
+            {
+                "name": "Unagi Don",
+                "price": 9.55
+            },
+            {
                 "name": "Vegetable tempura",
-                "price": 3.95
+                "price": 5.95
             },
             {
                 "name": "Vegetarian sushi plate",
-                "price": 6.95
+                "price": 8.95
             },
             {
                 "name": "Wakame salad",
-                "price": 4.95
+                "price": 8.95
             }
         ],
         "price": 3,
@@ -2442,71 +2442,71 @@
         "menuItems": [
             {
                 "name": "Almond cookie",
-                "price": 5.95
-            },
-            {
-                "name": "Chicken and broccoli",
-                "price": 9.95
-            },
-            {
-                "name": "Chow mein",
-                "price": 4.95
-            },
-            {
-                "name": "Egg rolls (4)",
-                "price": 3.95
-            },
-            {
-                "name": "General Tao's chicken",
-                "price": 5.95
-            },
-            {
-                "name": "Hot and Sour Soup",
-                "price": 7.55
-            },
-            {
-                "name": "Hunan dumplings",
-                "price": 6.5
-            },
-            {
-                "name": "Mongolian beef",
-                "price": 6.95
-            },
-            {
-                "name": "Pan-fried beef noodle",
                 "price": 7.95
             },
             {
-                "name": "Pea shoots with garlic",
-                "price": 8.95
+                "name": "Chicken and broccoli",
+                "price": 12.95
             },
             {
-                "name": "Potstickers (6)",
+                "name": "Chow mein",
                 "price": 6.95
             },
             {
-                "name": "Seafood hotpot",
-                "price": 4.95
-            },
-            {
-                "name": "Steamed rice",
+                "name": "Egg rolls (4)",
                 "price": 5.95
             },
             {
+                "name": "General Tao's chicken",
+                "price": 8.95
+            },
+            {
+                "name": "Hot and Sour Soup",
+                "price": 9.55
+            },
+            {
+                "name": "Hunan dumplings",
+                "price": 9.5
+            },
+            {
+                "name": "Mongolian beef",
+                "price": 8.95
+            },
+            {
+                "name": "Pan-fried beef noodle",
+                "price": 9.95
+            },
+            {
+                "name": "Pea shoots with garlic",
+                "price": 12.95
+            },
+            {
+                "name": "Potstickers (6)",
+                "price": 8.95
+            },
+            {
+                "name": "Seafood hotpot",
+                "price": 5.95
+            },
+            {
+                "name": "Steamed rice",
+                "price": 8.95
+            },
+            {
                 "name": "Sweet and sour pork",
-                "price": 6.95
+                "price": 9.95
             },
             {
                 "name": "Walnut prawns",
-                "price": 4.95
+                "price": 6.95
             },
             {
                 "name": "Wonton Soup",
-                "price": 6.25
+                "price": 8.25
             },
             {
                 "name": "Young Chow fried rice",
-                "price": 6.45
+                "price": 9.45
             }
         ],
         "price": 4,
@@ -2531,71 +2531,71 @@
         "menuItems": [
             {
                 "name": "Aloo Gobi",
-                "price": 5.95
-            },
-            {
-                "name": "Basmati rice",
-                "price": 6.95
-            },
-            {
-                "name": "Butter Chicken",
-                "price": 5.95
-            },
-            {
-                "name": "Chicken Korma",
-                "price": 7.55
-            },
-            {
-                "name": "Chicken Tikka Masala",
-                "price": 5.95
-            },
-            {
-                "name": "Gulab Jamun",
-                "price": 8.95
-            },
-            {
-                "name": "Kheer",
-                "price": 4.5
-            },
-            {
-                "name": "Lamb Asparagus",
-                "price": 9.5
-            },
-            {
-                "name": "Lamb Vindaloo",
                 "price": 7.95
             },
             {
+                "name": "Basmati rice",
+                "price": 9.95
+            },
+            {
+                "name": "Butter Chicken",
+                "price": 7.95
+            },
+            {
+                "name": "Chicken Korma",
+                "price": 9.55
+            },
+            {
+                "name": "Chicken Tikka Masala",
+                "price": 7.95
+            },
+            {
+                "name": "Gulab Jamun",
+                "price": 11.95
+            },
+            {
+                "name": "Kheer",
+                "price": 7.5
+            },
+            {
+                "name": "Lamb Asparagus",
+                "price": 12.5
+            },
+            {
+                "name": "Lamb Vindaloo",
+                "price": 9.95
+            },
+            {
                 "name": "Mix Grill Bombay",
-                "price": 5.95
+                "price": 7.95
             },
             {
                 "name": "Mulligatawny soup",
-                "price": 5.95
+                "price": 8.95
             },
             {
                 "name": "Murgh Chicken",
-                "price": 3.95
+                "price": 5.95
             },
             {
                 "name": "Naan stuffed with spinach and lamb",
-                "price": 4.55
+                "price": 6.55
             },
             {
                 "name": "Plain naan",
-                "price": 5.95
+                "price": 9.95
             },
             {
                 "name": "Rogan Josh",
-                "price": 5.95
+                "price": 7.95
             },
             {
                 "name": "Saag Paneer",
-                "price": 5.95
+                "price": 7.95
             },
             {
                 "name": "Tandoori Chicken",
-                "price": 4.95
+                "price": 8.95
             }
         ],
         "price": 3,
@@ -2621,39 +2621,39 @@
         "menuItems": [
             {
                 "name": "Apple pie",
-                "price": 5.95
+                "price": 7.95
             },
             {
                 "name": "B.L.T. and Avocado Sandwich",
-                "price": 5.95
+                "price": 8.95
             },
             {
                 "name": "Caesar salad",
-                "price": 5.95
+                "price": 8.95
             },
             {
                 "name": "Cappucino",
-                "price": 3.95
-            },
-            {
-                "name": "Cherry cheesecake",
-                "price": 4.95
-            },
-            {
-                "name": "Chocolate chip cookie",
-                "price": 4.55
-            },
-            {
-                "name": "Cobb salad",
-                "price": 6.95
-            },
-            {
-                "name": "Drip coffee",
                 "price": 5.95
             },
             {
+                "name": "Cherry cheesecake",
+                "price": 6.95
+            },
+            {
+                "name": "Chocolate chip cookie",
+                "price": 6.55
+            },
+            {
+                "name": "Cobb salad",
+                "price": 9.95
+            },
+            {
+                "name": "Drip coffee",
+                "price": 6.95
+            },
+            {
                 "name": "Eggsalad Sandwich",
-                "price": 3.95
+                "price": 5.95
             },
             {
                 "name": "Espresso",
@@ -2661,35 +2661,35 @@
             },
             {
                 "name": "Greek salad",
-                "price": 3.95
+                "price": 7.95
             },
             {
                 "name": "Hot tea",
-                "price": 2.5
+                "price": 3.5
             },
             {
                 "name": "Iced tea",
-                "price": 2.5
+                "price": 3.5
             },
             {
                 "name": "Latte",
-                "price": 4
+                "price": 5
             },
             {
                 "name": "Mango and banana smoothie",
-                "price": 3
+                "price": 6
             },
             {
                 "name": "Orange juice",
-                "price": 4.95
+                "price": 5.95
             },
             {
                 "name": "Quiche of the day",
-                "price": 6.95
+                "price": 8.95
             },
             {
                 "name": "Turkey Sandwich",
-                "price": 7.55
+                "price": 10.55
             }
         ],
         "price": 1,
@@ -2713,75 +2713,75 @@
         "menuItems": [
             {
                 "name": "Apple pie",
-                "price": 5.95
+                "price": 7.95
             },
             {
                 "name": "B.L.T. and Avocado Sandwich",
-                "price": 5.95
+                "price": 7.95
             },
             {
                 "name": "Caesar salad",
-                "price": 5.95
+                "price": 7.95
             },
             {
                 "name": "Cappucino",
-                "price": 3.95
-            },
-            {
-                "name": "Cherry cheesecake",
-                "price": 4.95
-            },
-            {
-                "name": "Chocolate chip cookie",
-                "price": 4.55
-            },
-            {
-                "name": "Cobb salad",
-                "price": 6.95
-            },
-            {
-                "name": "Drip coffee",
                 "price": 5.95
             },
             {
+                "name": "Cherry cheesecake",
+                "price": 6.95
+            },
+            {
+                "name": "Chocolate chip cookie",
+                "price": 6.55
+            },
+            {
+                "name": "Cobb salad",
+                "price": 8.95
+            },
+            {
+                "name": "Drip coffee",
+                "price": 7.95
+            },
+            {
                 "name": "Eggsalad Sandwich",
-                "price": 3.95
+                "price": 5.95
             },
             {
                 "name": "Espresso",
-                "price": 6.95
+                "price": 7.95
             },
             {
                 "name": "Greek salad",
-                "price": 3.95
+                "price": 5.95
             },
             {
                 "name": "Hot tea",
-                "price": 2.5
+                "price": 3.5
             },
             {
                 "name": "Iced tea",
-                "price": 2.5
+                "price": 3.5
             },
             {
                 "name": "Latte",
-                "price": 4
+                "price": 6
             },
             {
                 "name": "Mango and banana smoothie",
-                "price": 3
+                "price": 6
             },
             {
                 "name": "Orange juice",
-                "price": 4.95
+                "price": 5.95
             },
             {
                 "name": "Quiche of the day",
-                "price": 6.95
+                "price": 8.95
             },
             {
                 "name": "Turkey Sandwich",
-                "price": 7.55
+                "price": 10.55
             }
         ],
         "price": 3,
@@ -2807,75 +2807,75 @@
         "menuItems": [
             {
                 "name": "Apple pie",
-                "price": 5.95
+                "price": 7.95
             },
             {
                 "name": "B.L.T. and Avocado Sandwich",
-                "price": 5.95
+                "price": 7.95
             },
             {
                 "name": "Caesar salad",
-                "price": 5.95
+                "price": 7.95
             },
             {
                 "name": "Cappucino",
-                "price": 3.95
-            },
-            {
-                "name": "Cherry cheesecake",
-                "price": 4.95
-            },
-            {
-                "name": "Chocolate chip cookie",
-                "price": 4.55
-            },
-            {
-                "name": "Cobb salad",
-                "price": 6.95
-            },
-            {
-                "name": "Drip coffee",
                 "price": 5.95
             },
             {
+                "name": "Cherry cheesecake",
+                "price": 7.95
+            },
+            {
+                "name": "Chocolate chip cookie",
+                "price": 6.55
+            },
+            {
+                "name": "Cobb salad",
+                "price": 8.95
+            },
+            {
+                "name": "Drip coffee",
+                "price": 6.95
+            },
+            {
                 "name": "Eggsalad Sandwich",
-                "price": 3.95
+                "price": 5.95
             },
             {
                 "name": "Espresso",
-                "price": 6.95
+                "price": 7.95
             },
             {
                 "name": "Greek salad",
-                "price": 3.95
+                "price": 5.95
             },
             {
                 "name": "Hot tea",
-                "price": 2.5
+                "price": 4.5
             },
             {
                 "name": "Iced tea",
-                "price": 2.5
+                "price": 4.5
             },
             {
                 "name": "Latte",
-                "price": 4
+                "price": 6
             },
             {
                 "name": "Mango and banana smoothie",
-                "price": 3
+                "price": 5
             },
             {
                 "name": "Orange juice",
-                "price": 4.95
-            },
-            {
-                "name": "Quiche of the day",
                 "price": 6.95
             },
             {
+                "name": "Quiche of the day",
+                "price": 8.95
+            },
+            {
                 "name": "Turkey Sandwich",
-                "price": 7.55
+                "price": 9.55
             }
         ],
         "price": 2,
@@ -2899,39 +2899,39 @@
         "menuItems": [
             {
                 "name": "Apple pie",
-                "price": 5.95
+                "price": 7.95
             },
             {
                 "name": "B.L.T. and Avocado Sandwich",
-                "price": 5.95
-            },
-            {
-                "name": "Caesar salad",
-                "price": 5.95
-            },
-            {
-                "name": "Cappucino",
-                "price": 3.95
-            },
-            {
-                "name": "Cherry cheesecake",
-                "price": 4.95
-            },
-            {
-                "name": "Chocolate chip cookie",
-                "price": 4.55
-            },
-            {
-                "name": "Cobb salad",
                 "price": 6.95
             },
             {
+                "name": "Caesar salad",
+                "price": 7.95
+            },
+            {
+                "name": "Cappucino",
+                "price": 6.95
+            },
+            {
+                "name": "Cherry cheesecake",
+                "price": 7.95
+            },
+            {
+                "name": "Chocolate chip cookie",
+                "price": 7.55
+            },
+            {
+                "name": "Cobb salad",
+                "price": 8.95
+            },
+            {
                 "name": "Drip coffee",
-                "price": 5.95
+                "price": 6.95
             },
             {
                 "name": "Eggsalad Sandwich",
-                "price": 3.95
+                "price": 5.95
             },
             {
                 "name": "Espresso",
@@ -2939,31 +2939,31 @@
             },
             {
                 "name": "Greek salad",
-                "price": 3.95
+                "price": 6.95
             },
             {
                 "name": "Hot tea",
-                "price": 2.5
+                "price": 3.5
             },
             {
                 "name": "Iced tea",
-                "price": 2.5
+                "price": 3.5
             },
             {
                 "name": "Latte",
-                "price": 4
+                "price": 5
             },
             {
                 "name": "Mango and banana smoothie",
-                "price": 3
+                "price": 7
             },
             {
                 "name": "Orange juice",
-                "price": 4.95
+                "price": 5.95
             },
             {
                 "name": "Quiche of the day",
-                "price": 6.95
+                "price": 8.95
             },
             {
                 "name": "Turkey Sandwich",
@@ -2993,23 +2993,23 @@
         "menuItems": [
             {
                 "name": "Cesar salad",
-                "price": 5.95
+                "price": 6.95
             },
             {
                 "name": "Cheesecake",
-                "price": 6.95
-            },
-            {
-                "name": "Chicago-style deep dish chicken and spinach",
-                "price": 6.95
-            },
-            {
-                "name": "Chicago-style deep dish pepperoni and cheese",
                 "price": 7.95
             },
             {
+                "name": "Chicago-style deep dish chicken and spinach",
+                "price": 7.95
+            },
+            {
+                "name": "Chicago-style deep dish pepperoni and cheese",
+                "price": 8.95
+            },
+            {
                 "name": "Chicago-style deep dish vegetarian",
-                "price": 6.95
+                "price": 8.95
             },
             {
                 "name": "Chicago-style meat lover's",
@@ -3017,7 +3017,7 @@
             },
             {
                 "name": "Chocolate cake",
-                "price": 3.95
+                "price": 5.95
             },
             {
                 "name": "Coffee",
@@ -3025,39 +3025,39 @@
             },
             {
                 "name": "Garlic bread",
-                "price": null
+                "price": 5.20
             },
             {
                 "name": "Greek salad",
-                "price": 5.95
+                "price": 8.95
             },
             {
                 "name": "Pizza of the day (slice)",
-                "price": 7.55
+                "price": 8.55
             },
             {
                 "name": "Thin crust anchovy and garlic and chili pepper",
-                "price": 5.95
+                "price": 7.95
             },
             {
                 "name": "Thin crust broccoli, chicken, and mozarella",
-                "price": 3.95
-            },
-            {
-                "name": "Thin crust margherita",
-                "price": 4.55
-            },
-            {
-                "name": "Thin crust pepperoni",
                 "price": 6.95
             },
             {
+                "name": "Thin crust margherita",
+                "price": 6.55
+            },
+            {
+                "name": "Thin crust pepperoni",
+                "price": 8.95
+            },
+            {
                 "name": "Thin crust quattro stagione",
-                "price": 4.95
+                "price": 5.95
             },
             {
                 "name": "Thin crust sausage and guanciale bacon",
-                "price": 4.95
+                "price": 6.95
             }
         ],
         "price": 1,
@@ -3082,71 +3082,71 @@
         "menuItems": [
             {
                 "name": "Cesar salad",
-                "price": 5.95
+                "price": 6.95
             },
             {
                 "name": "Cheesecake",
-                "price": 6.95
+                "price": 7.95
             },
             {
                 "name": "Chicago-style deep dish chicken and spinach",
-                "price": 6.95
-            },
-            {
-                "name": "Chicago-style deep dish pepperoni and cheese",
-                "price": 7.95
-            },
-            {
-                "name": "Chicago-style deep dish vegetarian",
-                "price": 6.95
-            },
-            {
-                "name": "Chicago-style meat lover's",
                 "price": 8.95
             },
             {
-                "name": "Chocolate cake",
-                "price": 3.95
+                "name": "Chicago-style deep dish pepperoni and cheese",
+                "price": 8.95
             },
             {
-                "name": "Coffee",
+                "name": "Chicago-style deep dish vegetarian",
                 "price": 7.95
             },
             {
+                "name": "Chicago-style meat lover's",
+                "price": 11.95
+            },
+            {
+                "name": "Chocolate cake",
+                "price": 5.95
+            },
+            {
+                "name": "Coffee",
+                "price": 9.95
+            },
+            {
                 "name": "Garlic bread",
-                "price": null
+                "price": 11.21
             },
             {
                 "name": "Greek salad",
-                "price": 5.95
+                "price": 7.95
             },
             {
                 "name": "Pizza of the day (slice)",
-                "price": 7.55
+                "price": 9.55
             },
             {
                 "name": "Thin crust anchovy and garlic and chili pepper",
-                "price": 5.95
+                "price": 7.95
             },
             {
                 "name": "Thin crust broccoli, chicken, and mozarella",
-                "price": 3.95
-            },
-            {
-                "name": "Thin crust margherita",
-                "price": 4.55
-            },
-            {
-                "name": "Thin crust pepperoni",
                 "price": 6.95
             },
             {
+                "name": "Thin crust margherita",
+                "price": 7.55
+            },
+            {
+                "name": "Thin crust pepperoni",
+                "price": 8.95
+            },
+            {
                 "name": "Thin crust quattro stagione",
-                "price": 4.95
+                "price": 6.95
             },
             {
                 "name": "Thin crust sausage and guanciale bacon",
-                "price": 4.95
+                "price": 8.95
             }
         ],
         "price": 4,
@@ -3171,71 +3171,71 @@
         "menuItems": [
             {
                 "name": "Cesar salad",
-                "price": 5.95
+                "price": 7.95
             },
             {
                 "name": "Cheesecake",
-                "price": 6.95
-            },
-            {
-                "name": "Chicago-style deep dish chicken and spinach",
-                "price": 6.95
-            },
-            {
-                "name": "Chicago-style deep dish pepperoni and cheese",
-                "price": 7.95
-            },
-            {
-                "name": "Chicago-style deep dish vegetarian",
-                "price": 6.95
-            },
-            {
-                "name": "Chicago-style meat lover's",
                 "price": 8.95
             },
             {
+                "name": "Chicago-style deep dish chicken and spinach",
+                "price": 9.95
+            },
+            {
+                "name": "Chicago-style deep dish pepperoni and cheese",
+                "price": 8.95
+            },
+            {
+                "name": "Chicago-style deep dish vegetarian",
+                "price": 9.95
+            },
+            {
+                "name": "Chicago-style meat lover's",
+                "price": 12.95
+            },
+            {
                 "name": "Chocolate cake",
-                "price": 3.95
-            },
-            {
-                "name": "Coffee",
-                "price": 7.95
-            },
-            {
-                "name": "Garlic bread",
-                "price": null
-            },
-            {
-                "name": "Greek salad",
-                "price": 5.95
-            },
-            {
-                "name": "Pizza of the day (slice)",
-                "price": 7.55
-            },
-            {
-                "name": "Thin crust anchovy and garlic and chili pepper",
-                "price": 5.95
-            },
-            {
-                "name": "Thin crust broccoli, chicken, and mozarella",
-                "price": 3.95
-            },
-            {
-                "name": "Thin crust margherita",
-                "price": 4.55
-            },
-            {
-                "name": "Thin crust pepperoni",
                 "price": 6.95
             },
             {
+                "name": "Coffee",
+                "price": 10.95
+            },
+            {
+                "name": "Garlic bread",
+                "price": 6.30
+            },
+            {
+                "name": "Greek salad",
+                "price": 7.95
+            },
+            {
+                "name": "Pizza of the day (slice)",
+                "price": 9.55
+            },
+            {
+                "name": "Thin crust anchovy and garlic and chili pepper",
+                "price": 7.95
+            },
+            {
+                "name": "Thin crust broccoli, chicken, and mozarella",
+                "price": 5.95
+            },
+            {
+                "name": "Thin crust margherita",
+                "price": 6.55
+            },
+            {
+                "name": "Thin crust pepperoni",
+                "price": 8.95
+            },
+            {
                 "name": "Thin crust quattro stagione",
-                "price": 4.95
+                "price": 6.95
             },
             {
                 "name": "Thin crust sausage and guanciale bacon",
-                "price": 4.95
+                "price": 6.95
             }
         ],
         "price": 2,
@@ -3261,71 +3261,71 @@
         "menuItems": [
             {
                 "name": "Cesar salad",
-                "price": 5.95
+                "price": 7.95
             },
             {
                 "name": "Cheesecake",
-                "price": 6.95
+                "price": 9.95
             },
             {
                 "name": "Chicago-style deep dish chicken and spinach",
-                "price": 6.95
+                "price": 9.95
             },
             {
                 "name": "Chicago-style deep dish pepperoni and cheese",
-                "price": 7.95
+                "price": 10.95
             },
             {
                 "name": "Chicago-style deep dish vegetarian",
-                "price": 6.95
-            },
-            {
-                "name": "Chicago-style meat lover's",
                 "price": 8.95
             },
             {
+                "name": "Chicago-style meat lover's",
+                "price": 11.95
+            },
+            {
                 "name": "Chocolate cake",
-                "price": 3.95
-            },
-            {
-                "name": "Coffee",
-                "price": 7.95
-            },
-            {
-                "name": "Garlic bread",
-                "price": null
-            },
-            {
-                "name": "Greek salad",
-                "price": 5.95
-            },
-            {
-                "name": "Pizza of the day (slice)",
-                "price": 7.55
-            },
-            {
-                "name": "Thin crust anchovy and garlic and chili pepper",
-                "price": 5.95
-            },
-            {
-                "name": "Thin crust broccoli, chicken, and mozarella",
-                "price": 3.95
-            },
-            {
-                "name": "Thin crust margherita",
-                "price": 4.55
-            },
-            {
-                "name": "Thin crust pepperoni",
                 "price": 6.95
             },
             {
+                "name": "Coffee",
+                "price": 9.95
+            },
+            {
+                "name": "Garlic bread",
+                "price": 5.20
+            },
+            {
+                "name": "Greek salad",
+                "price": 8.95
+            },
+            {
+                "name": "Pizza of the day (slice)",
+                "price": 8.55
+            },
+            {
+                "name": "Thin crust anchovy and garlic and chili pepper",
+                "price": 7.95
+            },
+            {
+                "name": "Thin crust broccoli, chicken, and mozarella",
+                "price": 5.95
+            },
+            {
+                "name": "Thin crust margherita",
+                "price": 7.55
+            },
+            {
+                "name": "Thin crust pepperoni",
+                "price": 8.95
+            },
+            {
                 "name": "Thin crust quattro stagione",
-                "price": 4.95
+                "price": 6.95
             },
             {
                 "name": "Thin crust sausage and guanciale bacon",
-                "price": 4.95
+                "price": 6.95
             }
         ],
         "price": 5,
@@ -3349,71 +3349,71 @@
         "menuItems": [
             {
                 "name": "Cesar salad",
-                "price": 5.95
+                "price": 7.95
             },
             {
                 "name": "Cheesecake",
-                "price": 6.95
-            },
-            {
-                "name": "Chicago-style deep dish chicken and spinach",
-                "price": 6.95
-            },
-            {
-                "name": "Chicago-style deep dish pepperoni and cheese",
-                "price": 7.95
-            },
-            {
-                "name": "Chicago-style deep dish vegetarian",
-                "price": 6.95
-            },
-            {
-                "name": "Chicago-style meat lover's",
                 "price": 8.95
             },
             {
+                "name": "Chicago-style deep dish chicken and spinach",
+                "price": 8.95
+            },
+            {
+                "name": "Chicago-style deep dish pepperoni and cheese",
+                "price": 9.95
+            },
+            {
+                "name": "Chicago-style deep dish vegetarian",
+                "price": 8.95
+            },
+            {
+                "name": "Chicago-style meat lover's",
+                "price": 10.95
+            },
+            {
                 "name": "Chocolate cake",
-                "price": 3.95
+                "price": 5.95
             },
             {
                 "name": "Coffee",
-                "price": 7.95
+                "price": 9.95
             },
             {
                 "name": "Garlic bread",
-                "price": null
+                "price": 5.20
             },
             {
                 "name": "Greek salad",
-                "price": 5.95
+                "price": 7.95
             },
             {
                 "name": "Pizza of the day (slice)",
-                "price": 7.55
+                "price": 9.55
             },
             {
                 "name": "Thin crust anchovy and garlic and chili pepper",
-                "price": 5.95
+                "price": 7.95
             },
             {
                 "name": "Thin crust broccoli, chicken, and mozarella",
-                "price": 3.95
+                "price": 5.95
             },
             {
                 "name": "Thin crust margherita",
-                "price": 4.55
+                "price": 7.55
             },
             {
                 "name": "Thin crust pepperoni",
-                "price": 6.95
+                "price": 9.95
             },
             {
                 "name": "Thin crust quattro stagione",
-                "price": 4.95
+                "price": 6.95
             },
             {
                 "name": "Thin crust sausage and guanciale bacon",
-                "price": 4.95
+                "price": 7.95
             }
         ],
         "price": 3,
@@ -3439,71 +3439,71 @@
         "menuItems": [
             {
                 "name": "Cesar salad",
-                "price": 5.95
+                "price": 7.95
             },
             {
                 "name": "Cheesecake",
-                "price": 6.95
-            },
-            {
-                "name": "Chicago-style deep dish chicken and spinach",
-                "price": 6.95
-            },
-            {
-                "name": "Chicago-style deep dish pepperoni and cheese",
-                "price": 7.95
-            },
-            {
-                "name": "Chicago-style deep dish vegetarian",
-                "price": 6.95
-            },
-            {
-                "name": "Chicago-style meat lover's",
                 "price": 8.95
             },
             {
+                "name": "Chicago-style deep dish chicken and spinach",
+                "price": 9.95
+            },
+            {
+                "name": "Chicago-style deep dish pepperoni and cheese",
+                "price": 10.95
+            },
+            {
+                "name": "Chicago-style deep dish vegetarian",
+                "price": 9.95
+            },
+            {
+                "name": "Chicago-style meat lover's",
+                "price": 11.95
+            },
+            {
                 "name": "Chocolate cake",
-                "price": 3.95
+                "price": 5.95
             },
             {
                 "name": "Coffee",
-                "price": 7.95
+                "price": 9.95
             },
             {
                 "name": "Garlic bread",
-                "price": null
+                "price": 4.20
             },
             {
                 "name": "Greek salad",
-                "price": 5.95
+                "price": 8.95
             },
             {
                 "name": "Pizza of the day (slice)",
-                "price": 7.55
+                "price": 9.55
             },
             {
                 "name": "Thin crust anchovy and garlic and chili pepper",
-                "price": 5.95
+                "price": 8.95
             },
             {
                 "name": "Thin crust broccoli, chicken, and mozarella",
-                "price": 3.95
-            },
-            {
-                "name": "Thin crust margherita",
-                "price": 4.55
-            },
-            {
-                "name": "Thin crust pepperoni",
                 "price": 6.95
             },
             {
+                "name": "Thin crust margherita",
+                "price": 7.55
+            },
+            {
+                "name": "Thin crust pepperoni",
+                "price": 9.95
+            },
+            {
                 "name": "Thin crust quattro stagione",
-                "price": 4.95
+                "price": 8.95
             },
             {
                 "name": "Thin crust sausage and guanciale bacon",
-                "price": 4.95
+                "price": 6.95
             }
         ],
         "price": 4,
