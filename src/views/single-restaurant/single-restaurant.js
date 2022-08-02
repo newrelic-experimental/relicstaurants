@@ -1,4 +1,4 @@
-import { Button, Divider, Rate, Table } from 'antd';
+import { Button, Divider, message, Rate, Table } from 'antd';
 import { orderList } from 'atoms/order-list.atom';
 import axios from 'axios';
 import { ViewWrapper } from 'components/common';
@@ -16,6 +16,7 @@ const getRestaurant = async (id) => {
   const { data } = await axios.get(
     `http://localhost:3003/api/restaurant/${id}`
   );
+
   return data;
 };
 
@@ -30,6 +31,8 @@ const SingleRestaurant = () => {
     const isItemInCart = orderListItems.find(
       (item) => item.name === clickedRow.name
     );
+
+    message.success(`${clickedRow.name} added to cart`, 1);
 
     if (isItemInCart) {
       const newData = orderListItems.map((item) =>
