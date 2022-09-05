@@ -29,9 +29,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "order": "nodemon ./order/start.js --watch order",
-    "restaurant": "nodemon ./restaurant/start.js --watch restaurant",
-    "restaurants": "nodemon ./restaurants/start.js --watch restaurants"
+    "checkout": "nodemon ./checkout/start.js --watch checkout",
+    "menu": "nodemon ./menu/start.js --watch menu",
+    "restaurant": "nodemon ./restaurant/start.js --watch restaurant"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx,json}": [

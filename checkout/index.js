@@ -6,7 +6,7 @@ var bodyParser = require('body-parser');
 var RestaurantRecord = require('./model').Restaurant;
 var MemoryStorage = require('./storage').Memory;
 
-var API_URL_ORDER = '/api/order';
+var API_URL_ORDER = '/api/checkout';
 
 exports.start = function(PORT, STATIC_DIR, DATA_FILE) {
   var app = express();

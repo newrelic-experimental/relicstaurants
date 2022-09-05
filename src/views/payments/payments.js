@@ -16,7 +16,7 @@ const Payments = () => {
   const { Option } = Select;
 
   const handleOrderSending = async (payload) => {
-    await axios.post('http://localhost:3002/api/order', payload);
+    await axios.post('http://localhost:3002/api/checkout', payload);
   };
 
   const columns = [
