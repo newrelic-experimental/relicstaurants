@@ -2,17 +2,17 @@
 .PHONY: checkout menu restaurant
 
 checkout:
-	cd checkout && npm install
+	cd checkoutService && npm install
 
 menu:
-	cd menu && npm install
+	cd menuService && npm install
 
 restaurant:
-	cd restaurant && npm install
+	cd restaurantService && npm install
 
 install:
 	npm install && make checkout menu restaurant
 
 run:
-	npx concurrently "npm:checkout" "npm:menu" "npm:restaurant" "npm:start" --kill-others
+	npx concurrently "npm:checkoutService" "npm:menuService" "npm:restaurantService" "npm:start" --kill-others
     

@@ -2,9 +2,9 @@
 
 # dependencies
 /node_modules
-checkout/node_modules
-restaurant/node_modules
-menu/node_modules
+checkoutService/node_modules
+restaurantService/node_modules
+menuService/node_modules
 /.pnp
 .pnp.js
 
