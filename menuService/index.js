@@ -6,7 +6,7 @@ var bodyParser = require('body-parser');
 var RestaurantRecord = require('./model').Restaurant;
 var MemoryStorage = require('./storage').Memory;
 
-var API_URL = '/api/restaurant/:id';
+var API_URL = '/api/menu/:id';
 
 exports.start = function(PORT, STATIC_DIR, DATA_FILE) {
   var app = express();
@@ -23,7 +23,7 @@ exports.start = function(PORT, STATIC_DIR, DATA_FILE) {
 
   // set header to prevent cors errors
   app.use(function(_req, res, next) {
-    res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000')
+    res.setHeader('Access-Control-Allow-Origin', '*')
     next();
   });
 

@@ -36,7 +36,7 @@ exports.start = function(PORT, STATIC_DIR, DATA_FILE) {
 
   // set header to prevent cors errors
   app.use(function(_req, res, next) {
-    res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000')
+    res.setHeader('Access-Control-Allow-Origin', '*')
     next();
   });
 
