@@ -23,7 +23,8 @@ exports.start = function(PORT, STATIC_DIR, DATA_FILE) {
 
   // set header to prevent cors errors
   app.use(function(_req, res, next) {
-    res.setHeader('Access-Control-Allow-Origin', '*')
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Headers', 'newrelic, tracestate, traceparent'),
     next();
   });
 
