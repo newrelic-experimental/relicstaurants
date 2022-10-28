@@ -32,12 +32,17 @@ while True:
 
     cart = browser.find_element(By.CLASS_NAME, "ant-badge").click()
     time.sleep(2)
-    pay = browser.find_element(By.CSS_SELECTOR, "body > div:nth-child(4) > div > div.ant-drawer-content-wrapper > div > div > div.ant-drawer-body > div > div > div > div > div > div > table > tfoot > tr:nth-child(2) > td:nth-child(2) > button").click()
+    pay = browser.find_element(By.ID, "pay").click()
     time.sleep(2)
 
     num = ''
-    for i in range(16):
-        num = num + str(random.randint(0,9))
+    if random.random() < .5:
+        for i in range(16):
+            num = num + str(random.randint(0,9))
+    else:
+        for i in range(15):
+            num = num + str(random.randint(0,9))
+    
     cardNum = browser.find_element(By.ID, "cardNumber").send_keys(num)
     time.sleep(1)
 
@@ -48,5 +53,5 @@ while True:
     cardCvc.send_keys(cvs)
     time.sleep(2)
 
-    placeOrder = browser.find_element(By.CSS_SELECTOR, "#root > div > main > div > form > div:nth-child(4) > div > div > div > button").click()
+    placeOrder = browser.find_element(By.ID, "submit").click()
     time.sleep(2)

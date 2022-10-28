@@ -113,6 +113,7 @@ const Header = () => {
                     </Table.Summary.Cell>
                     <Table.Summary.Cell>
                       <Button
+                        id="pay"
                         disabled={totalPrice > 0 ? false : true}
                         primary
                         onClick={() => {

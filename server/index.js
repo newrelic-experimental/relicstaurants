@@ -10,6 +10,7 @@ var MemoryStorage = require('./storage').Memory;
 var API_URL = '/api/restaurant';
 var API_URL_ID = API_URL + '/:id';
 var API_URL_ORDER = '/api/order';
+var API_URL_VALIDATION = '/api/validation';
 
 var removeMenuItems = function(restaurant) {
   var clone = {};
@@ -61,6 +62,15 @@ exports.start = function(PORT, STATIC_DIR, DATA_FILE) {
     return res.status(201).send({ orderId: Date.now()});
   });
 
+  app.post(API_URL_VALIDATION, function(req, res, next) {
+    console.log(req.body.ccnum.length);
+    if (req.body.ccnum.length <= 15) {
+      let err = new Error('payments.js, cardNumber is invalid');
+      return res.status(400).send(err);
+    }
+    return res.status(200).send();
+  });
+
 
   app.get(API_URL_ID, function(req, res, next) {
     var restaurant = storage.getById(req.params.id);
@@ -109,20 +119,7 @@ exports.start = function(PORT, STATIC_DIR, DATA_FILE) {
 
     app.listen(PORT, function() {
       open('http://localhost:' + PORT + '/');
-      // console.log('Go to http://localhost:' + PORT + '/');
     });
   });
-
-
-  // Windows and Node.js before 0.8.9 would crash
-  // https://github.com/joyent/node/issues/1553
-//  try {
-//    process.on('SIGINT', function() {
-//      // save the storage back to the json file
-//      fs.writeFile(DATA_FILE, JSON.stringify(storage.getAll()), function() {
-//        process.exit(0);
-//      });
-//    });
-//  } catch (e) {}
 
 };

@@ -15,6 +15,12 @@ const Payments = () => {
   const [form] = Form.useForm();
   const { Option } = Select;
 
+  const handleOrderValidation = async (payload) => {
+    await axios.post('/api/validation', {
+      ccnum: payload,
+    });
+  };
+
   const handleOrderSending = async (payload) => {
     await axios.post('/api/order', payload);
   };
@@ -79,8 +85,13 @@ const Payments = () => {
         >
           <InputNumber
             placeholder="Card number"
+            maxLength={16}
             controls={false}
             style={{ width: '300px' }}
+            stringMode
+            onBlur={(event) => {
+              handleOrderValidation(event.target.value);
+            }}
           />
         </Form.Item>
         <Form.Item
@@ -92,10 +103,10 @@ const Payments = () => {
             },
           ]}
         >
-          <InputNumber placeholder="CVV" controls={false} max={999} />
+          <InputNumber placeholder="CVV" controls={false} maxLength={3} />
         </Form.Item>
         <Form.Item>
-          <Button htmlType="submit" type="primary">
+          <Button id="submit" htmlType="submit" type="primary">
             Finish payment
           </Button>
         </Form.Item>
