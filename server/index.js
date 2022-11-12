@@ -1,3 +1,4 @@
+var newrelic = require('newrelic');
 var express = require('express');
 var fs = require('fs');
 var open = require('open');
@@ -63,9 +64,9 @@ exports.start = function(PORT, STATIC_DIR, DATA_FILE) {
   });
 
   app.post(API_URL_VALIDATION, function(req, res, next) {
-    console.log(req.body.ccnum.length);
     if (req.body.ccnum.length <= 15) {
       let err = new Error('payments.js, cardNumber is invalid');
+      newrelic.noticeError(err);
       return res.status(400).send(err);
     }
     return res.status(200).send();

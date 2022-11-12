@@ -31,7 +31,7 @@ while True:
         time.sleep(1)
 
     cart = browser.find_element(By.CLASS_NAME, "ant-badge").click()
-    time.sleep(2)
+    time.sleep(3)
     pay = browser.find_element(By.ID, "pay").click()
     time.sleep(2)
 

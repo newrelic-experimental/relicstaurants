@@ -34,19 +34,21 @@ const SingleRestaurant = () => {
     if (isItemInCart) {
       const newData = orderListItems.map((item) =>
         item.name === clickedRow.name
-          ? { ...item, count: item.count + 1 }
+          ? { ...item, count: item.count + 1, restaurant: data?.name }
           : item
       );
       setOrderList(newData);
     } else {
       setOrderList([
         ...orderListItems,
-        { name: clickedRow.name, price: clickedRow.price, count: 1 },
+        { name: clickedRow.name, price: clickedRow.price, count: 1, restaurant: data?.name },
+
       ]);
     }
   };
 
   const columns = [
+    {title: 'Restaurant', dataIndex: 'restaurant', key: 'restaurant'},
     { title: 'Name', dataIndex: 'name', key: 'name' },
     { title: 'Price', dataIndex: 'price', key: 'price' },
     {
