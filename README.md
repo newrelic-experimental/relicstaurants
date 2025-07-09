@@ -16,9 +16,9 @@
  make run
 ```
 
-## Enabling distributed tracing
+## APM Distributed Tracing
 
-To enable distributed tracing for the backend parts of this application it is required to add your New Relic License key to the following files:
+To enable distributed tracing for the backend parts of this application, add your New Relic License key to the following files:
 
 - [Checkout Service](checkoutService/newrelic.js#L16)
 - [Menu Service](menuService/newrelic.js#L16)
@@ -28,26 +28,40 @@ To enable distributed tracing for the backend parts of this application it is re
 
  ![image](readmeData/newrelic_license_key.png)
 
- To enable distributed tracing for the frontend part it is required to go to [New Relic One](https://one.newrelic.com/) -> once there the user should click on the "Add data" button located on the top right of New Relic One as seen on the screenshot below:
+### Documentation:
+* [Introduction to New Relic for Node.js](https://docs.newrelic.com/docs/apm/agents/nodejs-agent/getting-started/introduction-new-relic-nodejs/)
+* [Node.js agent configuration](https://docs.newrelic.com/docs/apm/agents/nodejs-agent/installation-configuration/nodejs-agent-configuration/)
+* [Distributed tracing for Node.js](https://docs.newrelic.com/docs/apm/agents/nodejs-agent/installation-configuration/distributed-tracing-nodejs-agent/) 
+* [Example distributed tracing instrumented app in Node](https://github.com/newrelic/newrelic-node-examples/tree/0a036fd669b4b47b8afbc7add8696980f799f0da/custom-instrumentation/distributed-tracing)
 
- ![image](readmeData/nr_one_add_data.png)
+## Browser Distributed Tracing
+### Documentation:
 
-Next the user should search for "react" in the search bar available there and click on the react icon visible in results. This should open a view called "Get started with New Relic Browser", in case of react apps it is recommended to select "Copy/Paste Javascript code" in the first section and then assign a name of the app in the third section as seen on the screenshot below:
+* [Installing browser agent](https://docs.newrelic.com/docs/browser/browser-monitoring/installation/install-browser-monitoring-agent/)
 
-![image](readmeData/get_started_nr_browser.png)
+*Note*: Javascript snippet should be then pasted as close to the top of the [index.html](public/index.html#L6) file. See guidance here for more details on [where to place Javascript snippet](https://docs.newrelic.com/docs/browser/new-relic-browser/page-load-timing-resources/instrumentation-browser-monitoring/#javascript-placement)
 
-After filling out the app name field and pressing "Enable", a fourth section called "Instrument the agent" will show up along with the instructions on how to add it. At this point in time it is recommended to close the popup window since there's still some things left to prepare. Next the user can proceed to the Browser section of New Relic One where they should see their newly created app available on the list.
-
-Once the user clicks on their app in the list they would see a new view, on it is necessary to go the to the "Application settings" view in the "Settings" section on the left - like shown in the screenshot below:
-
-![image](readmeData/nr_one_browser_view.png)
-
-In this view the user should enable "Cross Origin Resource Sharing(CORS)", "Use newrelic header", "Use trace context headers" and add the backend origins to enable newrelic headers to be passed between the frontend app and the backend ones. Next the user should click "Save application settings". Like on the screenshot below:
+### Recommendations: 
+Enable "Cross Origin Resource Sharing(CORS)", "Use newrelic header", "Use trace context headers" 
+Add the backend origins to enable newrelic headers to be passed between the frontend app and the backend ones
+Be sure to "Save application settings" as seen in :
 
 ![image](readmeData/browser_app_settings.png)
 
-This will redirect the user to the main view of the browser app in New Relic One. At this point the user should re-enter the "Application settings" view and copy the snippet available in the first section of the view.
-The snippet should be then pasted as close to the top of the [index.html](public/index.html#L6) file. After saving that change Distributed Tracing data should be available once the app is running.
+After saving that change, Distributed Tracing Browser data should be available once the app is running.
+
+
+## Infrastructure and logs:
+### Documentation:
+
+* [Infrastructure guided install](https://docs.newrelic.com/docs/infrastructure/infrastructure-agent/new-relic-guided-install-overview/)
+* [Node.js agent logs in context](https://docs.newrelic.com/docs/logs/logs-context/configure-logs-context-nodejs/)
+
+## To troubleshoot: 
+### Documentation:
+
+* [Troubleshooting Browser monitoring installation](https://docs.newrelic.com/docs/browser/browser-monitoring/troubleshooting/troubleshoot-your-browser-monitoring-installation/)
+* [Diagnosing issues/troubleshooting with nrdiag](https://docs.newrelic.com/docs/new-relic-solutions/solve-common-issues/diagnostics-cli-nrdiag/diagnostics-cli-nrdiag/)
 
 ## Contributing
 
